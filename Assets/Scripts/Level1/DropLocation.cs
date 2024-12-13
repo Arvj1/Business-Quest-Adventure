@@ -6,10 +6,10 @@ using UnityEngine.EventSystems;
 
 public class DropLocation : MonoBehaviour, IDropHandler
 {
-    public UnityEvent OnDroped;
+    public UnityEvent<GameObject,GameObject> OnDroped;
     public void OnDrop(PointerEventData eventData)
     {
         GameObject obj = eventData.pointerDrag;
-        OnDroped.Invoke();
+        OnDroped.Invoke(obj,gameObject);
     }
 }

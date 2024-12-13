@@ -2,24 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.Events;
 
 public class Stage1Manager : MonoBehaviour
 {
     [SerializeField] RectTransform startTransform, endTransform;
-    [SerializeField] GameObject productsListPrefab;
+    [SerializeField] GameObject[] products;
+    private int count = 0,index=0;
+    public UnityEvent OnGameOver;
+
 
     private void Start()
     {
-        Invoke("CreateList", 2f);
+        StartCoroutine(CreateList(products[0]));
     }
 
 
-    public void CreateList()
+    public IEnumerator CreateList(GameObject product)
     {
-        GameObject instantiatedProduct = Instantiate(productsListPrefab, startTransform.position, Quaternion.identity, startTransform.parent);
-
+        yield return new WaitForSeconds(2);
+        product.SetActive(true);
         // Get the RectTransform component of the instantiated object
-        RectTransform productRect = instantiatedProduct.GetComponent<RectTransform>();
+        RectTransform productRect = product.GetComponent<RectTransform>();
 
         // Set the initial position to the startTransform's position
         productRect.position = startTransform.position;
@@ -27,6 +31,23 @@ public class Stage1Manager : MonoBehaviour
         // Animate the productRect to the endTransform's position
         productRect.DOMove(endTransform.position, 1f) // 1f is the duration of the animation
                     .SetEase(Ease.InOutSine); // Ease in-out effect
+    }
+
+    public void CheckCorrectAnswer(GameObject dragged, GameObject dropLocation) {
+        Debug.Log($"{dragged.tag} {dropLocation.tag}");
+        if (dragged.tag == dropLocation.tag) { 
+        Destroy(dragged.gameObject);
+            count++;
+        }
+        if (count == 6) {
+            count = 0;
+            index++;
+            if (index == products.Length) { 
+                OnGameOver.Invoke();
+            }
+            else
+            CreateList(products[index]);
+        }
     }
 
 }

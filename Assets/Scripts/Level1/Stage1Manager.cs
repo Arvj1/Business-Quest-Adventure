@@ -46,7 +46,7 @@ public class Stage1Manager : MonoBehaviour
                 OnGameOver.Invoke();
             }
             else
-            CreateList(products[index]);
+                StartCoroutine(CreateList(products[index]));
         }
     }
 

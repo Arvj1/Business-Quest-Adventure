@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 9180456}
   m_Layer: 5
   m_Name: Text (TMP) (2)
-  m_TagString: Untagged
+  m_TagString: service
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -512,6 +512,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &127465260
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127465254}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &170847725 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6759162560020782369, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
@@ -538,6 +550,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &170847731
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170847725}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &187031815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -689,21 +713,39 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7154893661765343120, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 321360026}
+    - targetCorrespondingSourceObject: {fileID: 7154893661765343120, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 321360030}
     - targetCorrespondingSourceObject: {fileID: 4071660089336821613, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1465153383}
+    - targetCorrespondingSourceObject: {fileID: 4071660089336821613, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1465153387}
     - targetCorrespondingSourceObject: {fileID: 6759162560020782369, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1038207557}
+    - targetCorrespondingSourceObject: {fileID: 6759162560020782369, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1038207561}
     - targetCorrespondingSourceObject: {fileID: 1771819534145419747, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1484885161}
+    - targetCorrespondingSourceObject: {fileID: 1771819534145419747, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1484885165}
     - targetCorrespondingSourceObject: {fileID: 3786891907665169733, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1294017247}
+    - targetCorrespondingSourceObject: {fileID: 3786891907665169733, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1294017251}
     - targetCorrespondingSourceObject: {fileID: 3009780086308458640, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1789922801}
+    - targetCorrespondingSourceObject: {fileID: 3009780086308458640, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1789922805}
   m_SourcePrefab: {fileID: 100100000, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
 --- !u!1 &190818265
 GameObject:
@@ -717,6 +759,7 @@ GameObject:
   - component: {fileID: 190818268}
   - component: {fileID: 190818267}
   - component: {fileID: 190818269}
+  - component: {fileID: 190818270}
   m_Layer: 5
   m_Name: pipe (5)
   m_TagString: construction
@@ -809,6 +852,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!225 &190818270
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190818265}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &222522665
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,6 +965,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &253035622
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253035616}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &295079982 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3009780086308458640, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
@@ -936,6 +1003,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &295079988
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295079982}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &319501072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,6 +1084,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &321360030
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321360024}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &327210642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,7 +1378,7 @@ GameObject:
   - component: {fileID: 528175956}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Untagged
+  m_TagString: extractive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1588,21 +1679,39 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7154893661765343120, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1540380107}
+    - targetCorrespondingSourceObject: {fileID: 7154893661765343120, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1540380111}
     - targetCorrespondingSourceObject: {fileID: 4071660089336821613, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 127465256}
+    - targetCorrespondingSourceObject: {fileID: 4071660089336821613, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 127465260}
     - targetCorrespondingSourceObject: {fileID: 6759162560020782369, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 170847727}
+    - targetCorrespondingSourceObject: {fileID: 6759162560020782369, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 170847731}
     - targetCorrespondingSourceObject: {fileID: 1771819534145419747, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1334498977}
+    - targetCorrespondingSourceObject: {fileID: 1771819534145419747, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1334498981}
     - targetCorrespondingSourceObject: {fileID: 3786891907665169733, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1470199484}
+    - targetCorrespondingSourceObject: {fileID: 3786891907665169733, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1470199488}
     - targetCorrespondingSourceObject: {fileID: 3009780086308458640, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2143178928}
+    - targetCorrespondingSourceObject: {fileID: 3009780086308458640, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2143178932}
   m_SourcePrefab: {fileID: 100100000, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
 --- !u!1 &715649612 stripped
 GameObject:
@@ -1630,6 +1739,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &715649618
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715649612}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &790352087
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,6 +1763,7 @@ GameObject:
   - component: {fileID: 790352090}
   - component: {fileID: 790352089}
   - component: {fileID: 790352091}
+  - component: {fileID: 790352092}
   m_Layer: 5
   m_Name: pipe (1)
   m_TagString: genetic
@@ -1734,6 +1856,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!225 &790352092
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790352087}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &796980989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,7 +1882,7 @@ GameObject:
   - component: {fileID: 796980993}
   m_Layer: 5
   m_Name: Text (TMP) (1)
-  m_TagString: Untagged
+  m_TagString: primary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1959,6 +2093,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &899638984
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899638978}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1038207555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6759162560020782369, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
@@ -1985,6 +2131,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1038207561
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038207555}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1069950748 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1771819534145419747, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
@@ -2011,6 +2169,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1069950754
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069950748}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1070301748 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4881930349252357839, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
@@ -2172,21 +2342,39 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7154893661765343120, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1690319022}
+    - targetCorrespondingSourceObject: {fileID: 7154893661765343120, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1690319026}
     - targetCorrespondingSourceObject: {fileID: 4071660089336821613, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 715649614}
+    - targetCorrespondingSourceObject: {fileID: 4071660089336821613, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 715649618}
     - targetCorrespondingSourceObject: {fileID: 6759162560020782369, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 253035618}
+    - targetCorrespondingSourceObject: {fileID: 6759162560020782369, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 253035622}
     - targetCorrespondingSourceObject: {fileID: 1771819534145419747, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1069950750}
+    - targetCorrespondingSourceObject: {fileID: 1771819534145419747, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1069950754}
     - targetCorrespondingSourceObject: {fileID: 3786891907665169733, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 899638980}
+    - targetCorrespondingSourceObject: {fileID: 3786891907665169733, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 899638984}
     - targetCorrespondingSourceObject: {fileID: 3009780086308458640, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 295079984}
+    - targetCorrespondingSourceObject: {fileID: 3009780086308458640, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 295079988}
   m_SourcePrefab: {fileID: 100100000, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
 --- !u!1 &1123507714 stripped
 GameObject:
@@ -2280,7 +2468,7 @@ GameObject:
   - component: {fileID: 1192743667}
   m_Layer: 5
   m_Name: Text (TMP) (4)
-  m_TagString: Untagged
+  m_TagString: construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2442,6 +2630,7 @@ GameObject:
   - component: {fileID: 1199378263}
   - component: {fileID: 1199378262}
   - component: {fileID: 1199378264}
+  - component: {fileID: 1199378265}
   m_Layer: 5
   m_Name: pipe (3)
   m_TagString: service
@@ -2534,6 +2723,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!225 &1199378265
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199378260}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1201678634
 GameObject:
   m_ObjectHideFlags: 0
@@ -2638,6 +2839,7 @@ GameObject:
   - component: {fileID: 1284635369}
   - component: {fileID: 1284635368}
   - component: {fileID: 1284635370}
+  - component: {fileID: 1284635371}
   m_Layer: 5
   m_Name: pipe (4)
   m_TagString: manufacture
@@ -2730,6 +2932,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!225 &1284635371
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284635366}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1294017245 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3786891907665169733, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
@@ -2756,6 +2970,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1294017251
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294017245}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1334498975 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1771819534145419747, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
@@ -2782,6 +3008,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1334498981
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334498975}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1459214664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2796,7 +3034,7 @@ GameObject:
   - component: {fileID: 1459214668}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Untagged
+  m_TagString: genetic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2972,6 +3210,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1465153387
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465153381}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1470199482 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3786891907665169733, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
@@ -2998,6 +3248,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1470199488
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470199482}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1484885159 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1771819534145419747, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
@@ -3024,6 +3286,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1484885165
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484885159}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1501184955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3071,6 +3345,7 @@ GameObject:
   - component: {fileID: 1502401875}
   - component: {fileID: 1502401874}
   - component: {fileID: 1502401876}
+  - component: {fileID: 1502401877}
   m_Layer: 5
   m_Name: pipe (2)
   m_TagString: primary
@@ -3163,6 +3438,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!225 &1502401877
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502401872}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1524314742
 GameObject:
   m_ObjectHideFlags: 0
@@ -3469,6 +3756,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1540380111
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540380105}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1579012051 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4881930349252357839, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
@@ -3505,6 +3804,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1690319026
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690319020}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1703070860
 GameObject:
   m_ObjectHideFlags: 0
@@ -3813,6 +4124,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1789922805
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789922799}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1822312728
 GameObject:
   m_ObjectHideFlags: 0
@@ -3825,6 +4148,7 @@ GameObject:
   - component: {fileID: 1822312731}
   - component: {fileID: 1822312730}
   - component: {fileID: 1822312732}
+  - component: {fileID: 1822312733}
   m_Layer: 5
   m_Name: pipe
   m_TagString: extractive
@@ -3917,6 +4241,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!225 &1822312733
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822312728}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1947712412
 GameObject:
   m_ObjectHideFlags: 0
@@ -3931,7 +4267,7 @@ GameObject:
   - component: {fileID: 1947712416}
   m_Layer: 5
   m_Name: Text (TMP) (3)
-  m_TagString: Untagged
+  m_TagString: manufacture
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4283,6 +4619,18 @@ MonoBehaviour:
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &2143178932
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143178926}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

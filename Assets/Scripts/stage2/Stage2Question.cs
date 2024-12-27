@@ -10,4 +10,7 @@ public class Stage2Question : ScriptableObject
 
     [Range(0, 3)]
     public int correctOptionIndex; // Index of the correct option (0-3)
+
+    [TextArea]
+    public string explanation;
 }

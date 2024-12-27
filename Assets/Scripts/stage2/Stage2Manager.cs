@@ -5,16 +5,29 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
+public class WrongAnswerClass
+{
+    public Stage2Question questionData;
+    public string incorrectAnswer;
+}
+
 public class Stage2Manager : MonoBehaviour
 {
     [SerializeField] Stage2Question[] questionsData;
     [SerializeField] TMP_Text questionTxt, correctAnswerCountTxt, incorrectAnswerCountTxt;
     [SerializeField] TMP_Text[] options;
+    [SerializeField] GameObject blocker;
 
     [SerializeField] Animator correctAnimator, incorrectAnimator;
     [SerializeField] Transform correctCharacterTr, incorrectCharacterTr;
     [SerializeField] Transform correctCharacterStartPos, correctCharacterEndPos, incorrectCharacterStartPos, incorrectCharacterEndPos;
     public UnityEvent OnGameOver;
+
+    [SerializeField] TMP_Text resTotQues, resCorrectAns, resIncorrectAns;
+    [SerializeField] GameObject explanationPanelPrefab;
+    [SerializeField] Transform explanationScreenContentTr;
+
+    private List<WrongAnswerClass> wrongAnswersData = new List<WrongAnswerClass>();
 
     private Stage2Question currentQuestionData;
     private int idx = 0, cAC = 0, iAC = 0;
@@ -39,44 +52,116 @@ public class Stage2Manager : MonoBehaviour
 
     public void CheckCorrectAnswer(TMP_Text optionValue)
     {
-        if(optionValue.text == currentQuestionData.options[currentQuestionData.correctOptionIndex])
+        blocker.SetActive(true);
+        StartCoroutine(CheckCorrectAnswerEnumerator(optionValue));
+    }
+
+    private IEnumerator CheckCorrectAnswerEnumerator(TMP_Text optionValue)
+    {
+        if (optionValue.text == currentQuestionData.options[currentQuestionData.correctOptionIndex])
         {
-            StartCoroutine(CorrectAnswerTasks());
+            yield return StartCoroutine(CorrectAnswerTasks());
         }
         else
         {
-            iAC++;
-            incorrectAnswerCountTxt.text = iAC.ToString();
+            WrongAnswerClass wAD = new WrongAnswerClass();
+            wAD.questionData = currentQuestionData;
+            wAD.incorrectAnswer = optionValue.text;
+            wrongAnswersData.Add(wAD);
+
+            yield return StartCoroutine(IncorrectAnswerTasks());
         }
-        
+
         idx++;
-        if(idx == questionsData.Length)
+        if (idx == questionsData.Length)
         {
-            Debug.Log("Game Over");
+            resTotQues.text = "Total Questions : " + questionsData.Length;
+            resCorrectAns.text = "Correct : " + cAC;
+            resIncorrectAns.text = "Incorrect : " + iAC;
+
+            SetupExplanationScreen();
+
             OnGameOver.Invoke();
         }
         else ShowQuestion();
+        
+        blocker.SetActive(false);
     }
 
     private IEnumerator CorrectAnswerTasks()
     {
         cAC++;
         correctAnimator.Play("Run");
+        incorrectAnimator.Play("IRun");
+
         correctCharacterTr.DOMove(correctCharacterEndPos.position, 1f).OnComplete(() =>
         {
             correctAnimator.Play("Attack");
-
         });
         incorrectCharacterTr.DOMove(incorrectCharacterEndPos.position, 1f).OnComplete(() =>
         {
             incorrectAnimator.Play("ITakeHit");
         });
 
-        yield return new WaitForSeconds(0.5f);
-        incorrectAnimator.Play("Death");
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1.5f);
+        incorrectAnimator.Play("IDeath");
+        yield return new WaitForSeconds(1f);
 
+        correctCharacterTr.position = correctCharacterStartPos.position;
+        incorrectCharacterTr.position = incorrectCharacterStartPos.position;
+
+        correctAnimator.Play("Idle");
+        incorrectAnimator.Play("IIdle");
 
         correctAnswerCountTxt.text = cAC.ToString();
+    }
+
+    private IEnumerator IncorrectAnswerTasks()
+    {
+        iAC++;
+
+        correctAnimator.Play("Run");
+        incorrectAnimator.Play("IRun");
+
+        correctCharacterTr.DOMove(correctCharacterEndPos.position, 1f).OnComplete(() =>
+        {
+            correctAnimator.Play("TakeHit");
+        });
+        incorrectCharacterTr.DOMove(incorrectCharacterEndPos.position, 1f).OnComplete(() =>
+        {
+            incorrectAnimator.Play("IAttack");
+        });
+
+        yield return new WaitForSeconds(1.5f);
+        correctAnimator.Play("Death");
+        yield return new WaitForSeconds(1f);
+
+        correctCharacterTr.position = correctCharacterStartPos.position;
+        incorrectCharacterTr.position = incorrectCharacterStartPos.position;
+
+        correctAnimator.Play("Idle");
+        incorrectAnimator.Play("IIdle");
+
+        incorrectAnswerCountTxt.text = iAC.ToString();
+    }
+
+    private void SetupExplanationScreen()
+    {
+        for(int i=0; i<wrongAnswersData.Count; i++)
+        {
+            GameObject explanationPanel = Instantiate(explanationPanelPrefab, explanationScreenContentTr);
+
+            Transform tempVerPanel = explanationPanel.transform.GetChild(0);
+
+            TMP_Text quesTxt = tempVerPanel.GetChild(0).GetChild(0).GetComponent<TMP_Text>();
+            TMP_Text correctAnswerTxt = tempVerPanel.GetChild(1).GetChild(0).GetChild(0).GetComponent<TMP_Text>();
+            TMP_Text incorrectAnswerTxt = tempVerPanel.GetChild(1).GetChild(1).GetChild(0).GetComponent<TMP_Text>();
+            TMP_Text explanationTxt = tempVerPanel.GetChild(2).GetChild(0).GetComponent<TMP_Text>();
+
+            quesTxt.text = wrongAnswersData[i].questionData.questionText;
+            correctAnswerTxt.text = wrongAnswersData[i].questionData.options[wrongAnswersData[i].questionData.correctOptionIndex];
+            incorrectAnswerTxt.text = wrongAnswersData[i].incorrectAnswer;
+            explanationTxt.text = wrongAnswersData[i].questionData.explanation;
+        }
     }
 }

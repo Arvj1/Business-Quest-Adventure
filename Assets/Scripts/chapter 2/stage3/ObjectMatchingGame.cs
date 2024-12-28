@@ -23,6 +23,7 @@ public class ObjectMatchingGame : MonoBehaviour, IPointerDownHandler, IPointerUp
         lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
         lineRenderer.startColor = Color.green;
         lineRenderer.endColor = Color.green;
+        lineRenderer.sortingOrder = 25;
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -55,7 +56,7 @@ public class ObjectMatchingGame : MonoBehaviour, IPointerDownHandler, IPointerUp
             ObjectMatchForm endScript = endObject.GetComponent<ObjectMatchForm>();
 
             // Check matchID
-            if (matchID == endScript.Get_ID())
+            if (endScript != null && matchID == endScript.Get_ID())
             {
                 lineRenderer.SetPosition(1, endObject.transform.position); // Finalize line
                 Debug.Log("Matched!");
@@ -75,5 +76,6 @@ public class ObjectMatchingGame : MonoBehaviour, IPointerDownHandler, IPointerUp
     private void ClearLine()
     {
         lineRenderer.positionCount = 0;
+        lineRenderer.positionCount = 2;
     }
 }

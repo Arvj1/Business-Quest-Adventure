@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3f549b5bf5ecd4ba945614075ad192, type: 3}
   m_Name: chapter3_Stage1_Question 4
   m_EditorClassIdentifier: 
-  Question: 
-  explenation: 
+  Question: "Question4\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+  explenation: "Explanation4\t"
   answer: 0

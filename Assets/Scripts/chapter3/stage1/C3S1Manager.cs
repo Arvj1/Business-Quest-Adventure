@@ -16,9 +16,13 @@ public class C3S1Manager : MonoBehaviour
     [SerializeField] Transform truePlanetTr, FalsePlanetTr;
     [SerializeField] Animator blastAnimator;
     [SerializeField] GameObject blocker, endPanel;
+    [SerializeField] TMP_Text endPanelTotQuesTxt, endPanelCorrectCountTxt, endPanelWrongCountTxt;
+    [SerializeField] GameObject explanationPanelPrefab;
+    [SerializeField] Transform explantionPanelContentTr;
 
+    private List<Chap3_Stage1_SO> wrongAnswersData = new List<Chap3_Stage1_SO>();
     private Chap3_Stage1_SO currentQuestionData;
-    private int currIdx = 0;
+    private int currIdx = 0, correctCnt = 0;
     private Vector3 rocketInitialPosition;
 
     private void Start()
@@ -31,7 +35,7 @@ public class C3S1Manager : MonoBehaviour
     {
         if(currIdx >=  questionsData.Count)
         {
-            Debug.Log("No Questions to display");
+            SetupEndPanel();
             endPanel.SetActive(true);
             return;
         }
@@ -40,37 +44,63 @@ public class C3S1Manager : MonoBehaviour
         questionTxt.text = currentQuestionData.Question;
     }
 
+    private void SetupEndPanel()
+    {
+        endPanelTotQuesTxt.text = $"Total Questions :- {questionsData.Count}"; 
+        endPanelCorrectCountTxt.text = $"Correct :- {correctCnt}"; 
+        endPanelWrongCountTxt.text = $"Total Questions :- {questionsData.Count - correctCnt}"; 
+
+        foreach(Chap3_Stage1_SO qd in wrongAnswersData)
+        {
+            GameObject explanationObj = Instantiate(explanationPanelPrefab, explantionPanelContentTr);
+            Transform tempVerPanel = explanationObj.transform.GetChild(0);
+
+            TMP_Text quesTxt = tempVerPanel.GetChild(0).GetChild(0).GetComponent<TMP_Text>();
+            TMP_Text correctAnswerTxt = tempVerPanel.GetChild(1).GetChild(0).GetChild(0).GetComponent<TMP_Text>();
+            TMP_Text incorrectAnswerTxt = tempVerPanel.GetChild(1).GetChild(1).GetChild(0).GetComponent<TMP_Text>();
+            TMP_Text explanationTxt = tempVerPanel.GetChild(2).GetChild(0).GetComponent<TMP_Text>();
+
+            quesTxt.text = qd.Question;
+            correctAnswerTxt.text = (qd.answer) ? "True" : "False";
+            incorrectAnswerTxt.text = (!qd.answer) ? "True" : "False";
+            explanationTxt.text = qd.explenation;
+        }
+    }
+
 
     public void CheckAnswer(bool _answer)
     {
         blocker.SetActive(true);
+
+        bool selectedCorrect = true;
         if(_answer == currentQuestionData.answer)
         {
+            correctCnt++;
+            selectedCorrect = true;
             feedbackBG.color = Color.green;
             feedbackTxt.text = "Correct Answer";
-            StartCoroutine(AnswerAnimations(truePlanetTr, truePlanet, true));
         }
         else
         {
+            selectedCorrect = false;
             feedbackBG.color = Color.red;
             feedbackTxt.text = "Wrong Answer";
-            StartCoroutine(AnswerAnimations(FalsePlanetTr, falsePlanet, false));
+            wrongAnswersData.Add(currentQuestionData);
         }
+
+        if (_answer) StartCoroutine(AnswerAnimations(truePlanetTr, truePlanet, selectedCorrect));
+        else StartCoroutine(AnswerAnimations(FalsePlanetTr, falsePlanet, selectedCorrect));
     }
 
     private IEnumerator AnswerAnimations(Transform endTr, GameObject answerPlanet, bool _answer)
     {
-        rocketObj.transform.DOMove(endTr.position, 1f);
+        rocketObj.transform.DOMove(endTr.position, 1f).SetEase(Ease.Linear);
 
-        // Calculate the angle to rotate the rocket to face the target
-        Vector3 directionToTarget = (endTr.position - rocketObj.transform.position).normalized;
-        float angle = Mathf.Atan2(directionToTarget.y, directionToTarget.x) * Mathf.Rad2Deg;
-
-        // Rotate the rocket to face the target over 1 second
-        if (currentQuestionData.answer)
-            rocketObj.transform.DOLocalRotate(new Vector3(0, 0, -angle), 1f, RotateMode.Fast);
-        else
-            rocketObj.transform.DOLocalRotate(new Vector3(0, 0, angle), 1f, RotateMode.Fast);
+        // Rotate the rocket to face the target continuously
+        rocketObj.transform.DORotateQuaternion(
+            Quaternion.LookRotation(Vector3.forward, endTr.position - rocketObj.transform.position),
+            0.2f
+        );
 
         // Wait for the animation to complete
         yield return new WaitForSeconds(1f);

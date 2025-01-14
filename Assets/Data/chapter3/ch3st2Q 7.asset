@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: ch3st2Q 7
+  m_EditorClassIdentifier: 
+  questionText: Which characteristic helps a sole proprietor keep business strategies
+    confidential?
+  options:
+  - Direct motivation
+  - Maintenance of business secrets
+  - Self-employment opportunities
+  - Ease of formation
+  correctOptionIndex: 2
+  explanation: As the sole decision-maker, the proprietor is not required to share
+    plans or strategies with others.

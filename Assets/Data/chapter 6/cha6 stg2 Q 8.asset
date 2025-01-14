@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: cha6 stg2 Q 8
+  m_EditorClassIdentifier: 
+  questionText: Why should warehouses have mechanical appliances?
+  options:
+  - To reduce theft.
+  - To enable quick loading and unloading.
+  - To maintain records.
+  - To stop access to goods.
+  correctOptionIndex: 1
+  explanation: Mechanical appliances ensure efficient handling of goods, minimizing
+    time and wastage during loading and unloading.

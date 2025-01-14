@@ -374,6 +374,62 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 48d2e689e3ded324dafc997276b4e1d9, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 62e7000e846eaf140a0e528cc42506a2, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 11d23f04929e25742a7e504336100bbd, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8548003efe76a9a4d872a92ae6aa5f1a, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0b00150c7e274e84689631175430b5df, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: a77bf04d34c00aa4ab9895a421b10aec, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5cff06db2ad5328429a92e3287e6eefe, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 637795cb28759a2439426c4ad22011ea, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 24d080ac1b340cc40a6fee02735fa447, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 501a8e68ce82a0a40b06e10e34a408e9, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3296f0e653e75264898b327805b411ed, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[11]
+      value: 
+      objectReference: {fileID: 11400000, guid: dfeeb4ecacd86cf45a303e42072ff2bd, type: 2}
+    - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: questionsData.Array.data[12]
+      value: 
+      objectReference: {fileID: 11400000, guid: e54b0c4711bf1394d94fa6dba05d58d7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

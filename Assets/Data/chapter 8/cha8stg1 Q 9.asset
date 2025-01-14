@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: cha8stg1 Q 9
+  m_EditorClassIdentifier: 
+  questionText: What is the main benefit of Speed Post?
+  options:
+  - Lowest postage charges
+  - Faster delivery within a fixed time
+  - Non-traceable delivery service
+  - Delivery limited to metro cities
+  correctOptionIndex: 1
+  explanation: Speed Post ensures quick and time-bound delivery of letters and parcels
+    at specific charges.

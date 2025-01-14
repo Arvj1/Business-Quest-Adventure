@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: ch3st2Q 15
+  m_EditorClassIdentifier: 
+  questionText: What is a significant limitation regarding raising capital in a Joint
+    Hindu Family Business?
+  options:
+  - Lack of property rights
+  - Limited access to capital for expansion
+  - Poor management by the Karta
+  - Lack of member involvement
+  correctOptionIndex: 2
+  explanation: The Karta relies on ancestral property or personal funds, limiting
+    the ability to raise significant capital for business growth.

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: ch4St2 Q 2
+  m_EditorClassIdentifier: 
+  questionText: Which of the following is not a characteristic of a Government Company?
+  options:
+  - Employees are civil servants.
+  - It has a separate legal existence.
+  - At least 51% of the paid-up share capital is held by the Government.
+  - Directors are appointed by the Government.
+  correctOptionIndex: 1
+  explanation: Employees of Government Companies are not civil servants, which differentiates
+    them from traditional government departments.

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: stg10 2
+  m_EditorClassIdentifier: 
+  questionText: What does insurance primarily involve?
+  options:
+  - Avoiding all risks in business
+  - Paying premiums and receiving compensation for covered losses
+  - Conducting financial transactions
+  - Eliminating speculative risks entirely
+  correctOptionIndex: 1
+  explanation: Insurance is a contract where the insured pays premiums, and the insurer
+    compensates for specific risks or losses.

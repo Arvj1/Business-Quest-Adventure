@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: cha9stg1 Q 12
+  m_EditorClassIdentifier: 
+  questionText: What type of banking enables account access through telephones?
+  options:
+  - Phone Banking
+  - Internet Banking
+  - Branch Banking
+  - Teller Banking
+  correctOptionIndex: 0
+  explanation: Phone banking allows customers to access accounts and perform specific
+    banking functions via telephone.

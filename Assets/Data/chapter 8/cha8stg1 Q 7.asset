@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: cha8stg1 Q 7
+  m_EditorClassIdentifier: 
+  questionText: What is the maximum yearly deposit allowed in a Public Provident
+    Fund (PPF) account?
+  options:
+  - "\u20B95,000"
+  - "\u20B910,000"
+  - "\u20B970,000"
+  - "\u20B91,50,000"
+  correctOptionIndex: 2
+  explanation: "An individual can deposit a maximum of \u20B970,000 annually in a
+    PPF account, either as a lump sum or in up to 12 installments."

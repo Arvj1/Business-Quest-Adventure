@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: cha6 stg2 Q 6
+  m_EditorClassIdentifier: 
+  questionText: What risk does a warehouse take over from depositors?
+  options:
+  - Financial risk of price changes.
+  - Risk of product spoilage or damage during storage.
+  - Marketing risk for unsold goods.
+  - Risk of overproduction by manufacturers.
+  correctOptionIndex: 1
+  explanation: The warehouse keeper is responsible for ensuring the goods stored
+    are preserved and returned in good condition.

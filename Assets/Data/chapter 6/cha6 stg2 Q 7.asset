@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: cha6 stg2 Q 7
+  m_EditorClassIdentifier: 
+  questionText: How does a warehouse facilitate obtaining loans?
+  options:
+  - By acting as a direct lender.
+  - By issuing warrants as proof of goods stored.
+  - By evaluating the goods' market demand.
+  - By providing interest-free loans.
+  correctOptionIndex: 1
+  explanation: "A warehouse-keeper\u2019s warrant acts as a document of title, which
+    can be used as collateral for loans."

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: cha7stg1 Q 9
+  m_EditorClassIdentifier: 
+  questionText: Why does mutual distrust become a barrier to communication?
+  options:
+  - It leads to longer transmission times.
+  - It encourages people to express their views freely.
+  - It prevents open sharing of ideas.
+  - It increases technical issues.
+  correctOptionIndex: 2
+  explanation: A lack of trust hinders confidence and openness, which are essential
+    for effective communication.

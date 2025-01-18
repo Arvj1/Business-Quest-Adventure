@@ -1,7 +1,9 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class C6S1PlayerController : MonoBehaviour
 {
+    public C6S1GameManager manager;
     public float speed = 10f;
     public Transform spawnLocationTr, bulletParentTr;
     public GameObject bulletPrefab;
@@ -22,17 +24,22 @@ public class C6S1PlayerController : MonoBehaviour
 
     private void Update()
     {
-        float horizontalMovement = Input.GetAxis("Horizontal");
-        float newX = transform.position.x + (horizontalMovement * speed * Time.deltaTime);
-
-        // Clamp player position within bounds
-        newX = Mathf.Clamp(newX, screenLeftBound + playerWidth, screenRightBound - playerWidth);
-
-        transform.position = new Vector3(newX, transform.position.y, transform.position.z);
-
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0))
+        if (!manager.pauseGame)
         {
-            Instantiate(bulletPrefab, spawnLocationTr.position, Quaternion.identity, bulletParentTr);
+            float horizontalMovement = Input.GetAxis("Horizontal");
+            float newX = transform.position.x + (horizontalMovement * speed * Time.deltaTime);
+
+            // Clamp player position within bounds
+            newX = Mathf.Clamp(newX, screenLeftBound + playerWidth, screenRightBound - playerWidth);
+
+            transform.position = new Vector3(newX, transform.position.y, transform.position.z);
+
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                GameObject bulletObj = Instantiate(bulletPrefab, spawnLocationTr.position, Quaternion.identity, bulletParentTr);
+
+                bulletObj.GetComponent<C6S1BulletHandler>().OnHitOption.AddListener(manager.CheckCorrectAnswer);
+            }
         }
     }
 }

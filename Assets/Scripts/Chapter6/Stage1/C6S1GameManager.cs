@@ -14,7 +14,12 @@ public class C6S1GameManager : MonoBehaviour
     public UnityEvent OnGameOver;
     public bool pauseGame = false;
 
+    public TMP_Text totalQuesTxt, correctAnswersTxt, incorrectAnsTxt;
+    public GameObject explanationPanelPrefab;
+    public Transform explantionPanelContentTr;
+
     private int currIdx = 0, correctCnt = 0;
+    private List<WrongAnswerClass> wrongAnswersData = new List<WrongAnswerClass>();
 
     private void Start()
     {
@@ -28,6 +33,28 @@ public class C6S1GameManager : MonoBehaviour
         {
             Debug.Log("Game Over");
             pauseGame = true;
+
+            totalQuesTxt.text = $"Total Questions : {questionsData.Count}";
+            correctAnswersTxt.text = $"Correct : {correctCnt}";
+            incorrectAnsTxt.text = $"Incorrect : {questionsData.Count - correctCnt}";
+
+            for (int i = 0; i < wrongAnswersData.Count; i++)
+            {
+                GameObject explanationPanel = Instantiate(explanationPanelPrefab, explantionPanelContentTr);
+
+                Transform tempVerPanel = explanationPanel.transform.GetChild(0);
+
+                TMP_Text quesTxt = tempVerPanel.GetChild(0).GetChild(0).GetComponent<TMP_Text>();
+                TMP_Text correctAnswerTxt = tempVerPanel.GetChild(1).GetChild(0).GetChild(0).GetComponent<TMP_Text>();
+                TMP_Text incorrectAnswerTxt = tempVerPanel.GetChild(1).GetChild(1).GetChild(0).GetComponent<TMP_Text>();
+                TMP_Text explanationTxt = tempVerPanel.GetChild(2).GetChild(0).GetComponent<TMP_Text>();
+
+                quesTxt.text = wrongAnswersData[i].questionData.questionText;
+                correctAnswerTxt.text = wrongAnswersData[i].questionData.options[wrongAnswersData[i].questionData.correctOptionIndex];
+                incorrectAnswerTxt.text = wrongAnswersData[i].incorrectAnswer;
+                explanationTxt.text = wrongAnswersData[i].questionData.explanation;
+            }
+
             OnGameOver.Invoke();
             return;
         }
@@ -44,6 +71,11 @@ public class C6S1GameManager : MonoBehaviour
 
     public void CheckCorrectAnswer(string hitTxt)
     {
+        if(currIdx >= questionsData.Count)
+        {
+            return;
+        }
+
         pauseGame = true;
         if(hitTxt == questionsData[currIdx].options[questionsData[currIdx].correctOptionIndex])
         {
@@ -53,6 +85,10 @@ public class C6S1GameManager : MonoBehaviour
         }
         else
         {
+            WrongAnswerClass wad = new WrongAnswerClass();
+            wad.questionData = questionsData[currIdx];
+            wad.incorrectAnswer = hitTxt;
+            wrongAnswersData.Add(wad);
             Debug.Log("Incorrect Answer");
             FadeInAndOut(incorrectAnswerFeedback);
         }

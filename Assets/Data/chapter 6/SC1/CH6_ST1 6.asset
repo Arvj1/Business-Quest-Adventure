@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: CH6_ST1 6
+  m_EditorClassIdentifier: 
+  questionText: Which warehouse is closest to ports to store imported goods?
+  options:
+  - Government Warehouse
+  - Bonded Warehouse
+  - 'Private Warehouse '
+  - Cooperative Warehouse
+  correctOptionIndex: 1
+  explanation: " Bonded warehouses near ports store goods till customs duties are
+    paid\u200B\n"

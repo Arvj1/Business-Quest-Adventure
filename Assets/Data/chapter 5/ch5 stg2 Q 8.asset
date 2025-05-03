@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 8
   m_EditorClassIdentifier: 
-  questionText: What is an advantage of water transport?
+  questionText: ' How does warehousing help in price stabilization?'
   options:
-  - It requires high investment in routes.
-  - It provides fast delivery for perishable goods.
-  - It is economical for bulky goods.
-  - It is not suitable for international trade.
+  - ' By spoiling goods to reduce prices'
+  - By creating artificial scarcity
+  - By maintaining stock to meet demand
+  - By hoarding goods illegally
   correctOptionIndex: 2
-  explanation: Water transport offers a cost-effective way of moving bulky goods
-    over long distances.
+  explanation: Warehousing controls supply and prevents sudden price hikes

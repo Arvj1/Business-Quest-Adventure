@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 1
   m_EditorClassIdentifier: 
-  questionText: Who are the individuals or firms engaged in the business of transportation
-    called?
+  questionText: Which function of warehousing helps manufacturers keep producing
+    without interruption?
   options:
-  - Traders
-  - Transporters
-  - Manufacturers
-  - Producers
-  correctOptionIndex: 1
-  explanation: Individuals or business firms that undertake the movement of goods
-    and people are known as transporters.
+  - Protection of goods
+  - Quick delivery
+  - Storage of raw materials
+  - Risk bearing
+  correctOptionIndex: 2
+  explanation: "A continuous supply of raw materials ensures uninterrupted production\u200B"

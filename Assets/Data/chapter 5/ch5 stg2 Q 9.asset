@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 9
   m_EditorClassIdentifier: 
-  questionText: Which type of ship follows a fixed route and schedule?
+  questionText: 'One of the functions of a warehouse is financing because:'
   options:
-  - Liner
-  - Tramp
-  - Cargo ship
-  - Passenger ship
-  correctOptionIndex: 0
-  explanation: Liners follow regular schedules and routes, making them dependable
-    for carrying passengers and goods.
+  - Warehouses sell goods to public
+  - Warehouses issue receipts for loans
+  - Warehouses work as banks
+  - Warehouses manufacture goods
+  correctOptionIndex: 1
+  explanation: "A warehouse-keeper\u2019s warrant can help businessmen get loans\u200B"

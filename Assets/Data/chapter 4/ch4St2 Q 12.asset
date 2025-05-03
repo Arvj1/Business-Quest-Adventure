@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: ch4St2 Q 12
+  m_EditorClassIdentifier: 
+  questionText: 'A Co-operative Society must be registered under:'
+  options:
+  - The Indian Companies Act, 1956
+  - The Cooperative Societies Act, 1912
+  - The Partnership Act, 1932
+  - None of these
+  correctOptionIndex: 1
+  explanation: For a cooperative society to get a separate legal entity, registration
+    under the Cooperative Societies Act is compulsory

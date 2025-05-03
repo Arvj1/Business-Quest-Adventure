@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 3
   m_EditorClassIdentifier: 
-  questionText: How does transport help during natural calamities?
+  questionText: 'Grading and branding of goods inside warehouses helps in:'
   options:
-  - By generating employment
-  - By facilitating movement of troops and supplies
-  - By producing emergency goods
-  - By providing free transport services
-  correctOptionIndex: 1
-  explanation: Transport is crucial in emergencies for the quick movement of essential
-    supplies and services.
+  - Wasting time
+  - Hiding defects
+  - Making sale and inspection easier
+  - Avoiding customers
+  correctOptionIndex: 2
+  explanation: "Grading and branding inside warehouses prepare goods better for market
+    sale\u200B"

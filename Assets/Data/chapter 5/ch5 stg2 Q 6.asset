@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 6
   m_EditorClassIdentifier: 
-  questionText: What is the primary limitation of road transport?
+  questionText: 'Risk of goods theft or damage in a warehouse is minimized by:'
   options:
-  - It is expensive for short distances.
-  - ' It has limited carrying capacity.'
-  - It requires a fixed schedule for operations.
-  - It does not provide door-to-door service.
-  correctOptionIndex: 1
-  explanation: Road transport is not ideal for long distances or for carrying heavy
-    and bulk goods due to its capacity restrictions.
+  - Leaving doors open
+  - Hiring more salesmen
+  - Round-the-clock security
+  - Reducing warehouse rent
+  correctOptionIndex: 2
+  explanation: " 24-hour security is crucial for risk prevention\u200B"

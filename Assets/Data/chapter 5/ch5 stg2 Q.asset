@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q
   m_EditorClassIdentifier: 
-  questionText: Why is transportation considered an auxiliary to trade?
+  questionText: 'An ideal warehouse must be located:'
   options:
-  - It provides shelter to businesses.
-  - It supports production and distribution of goods.
-  - It is limited to a single locality.
-  - It promotes trade but not industry.
+  - Inside city malls
+  - Close to highways, ports, or railway stations
+  - in remote villages
+  - Near forests for cheap land
   correctOptionIndex: 1
-  explanation: Transportation helps in carrying raw materials to production sites
-    and finished products to consumers, thereby supporting trade and industry.
+  explanation: " Easy transportation access is crucial for efficient loading and
+    unloading\u200B\n"

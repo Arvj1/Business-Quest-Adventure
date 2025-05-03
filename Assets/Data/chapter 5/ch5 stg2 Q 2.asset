@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 2
   m_EditorClassIdentifier: 
-  questionText: What role does transport play in enhancing the standard of living?
+  questionText: "What is the warehouse-keeper\u2019s warrant used for?"
   options:
-  - It reduces product costs.
-  - It provides access to a variety of goods at different prices.
-  - It limits consumer options to essential goods.
-  - It produces high-cost luxury goods.
+  - Buying more goods
+  - Getting bank loans
+  - Storing more goods
+  - Avoiding taxes
   correctOptionIndex: 1
-  explanation: Transport enables consumers to choose from a wide range of goods,
-    which raises their standard of living.
+  explanation: This document acts as proof of goods stored and helps in securing
+    loans

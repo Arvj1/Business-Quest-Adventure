@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 5
   m_EditorClassIdentifier: 
-  questionText: Which mode of transport is most affected by adverse weather conditions?
+  questionText: Which of these is a key characteristic of an ideal warehouse?
   options:
-  - Road transport
-  - Rail transport
-  - Air transport
-  - none of the above
+  - ' Built inside city malls'
+  - No parking space required
+  - Equipped with fire-fighting equipment
+  - Open to rain and dust
   correctOptionIndex: 2
-  explanation: Air transport is sensitive to weather conditions such as fog, storms,
-    and heavy rain, which can disrupt operations.
+  explanation: " Fire safety is essential for storing valuable goods\u200B\n"

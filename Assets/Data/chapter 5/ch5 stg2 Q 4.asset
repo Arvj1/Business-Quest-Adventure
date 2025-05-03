@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 4
   m_EditorClassIdentifier: 
-  questionText: Which mode of transport is most suitable for carrying heavy goods
-    in bulk over long distances?
+  questionText: 'One major advantage of warehousing for small businessmen is:'
   options:
-  - Road transport
-  - Rail transport
-  - Air transport
-  - Water transport
-  correctOptionIndex: 3
-  explanation: Water transport is economical and suitable for carrying bulky and
-    heavy goods across long distances.
+  - They can build their own warehouses easily
+  - They can rent space economically
+  - "They don\u2019t need to store anything"
+  - They get free transportation
+  correctOptionIndex: 1
+  explanation: " Small traders can't afford to build warehouses; renting space is
+    cost-effective\u200B."

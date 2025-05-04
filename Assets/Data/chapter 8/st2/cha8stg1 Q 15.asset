@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: cha8stg1 Q 15
+  m_EditorClassIdentifier: 
+  questionText: Which service allows sellers to sell products and receive payment
+    through the post office?
+  options:
+  - ' Business Reply Post'
+  - Media Post
+  - ' Value Payable Post (VPP)'
+  - Express Post
+  correctOptionIndex: 2
+  explanation: Value Payable Post (VPP) enables sellers to send goods and have the
+    post office collect the payment from the customer.

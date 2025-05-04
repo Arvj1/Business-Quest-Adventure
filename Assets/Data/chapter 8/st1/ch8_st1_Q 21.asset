@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: ch8_st1_Q 21
+  m_EditorClassIdentifier: 
+  questionText: The maximum amount that can be deposited is Rs 15,00,000/-
+  options:
+  - The sum of money paid by the insurer.
+  - The fixed amount paid by the insured.
+  - The amount of insurance coverage.
+  - The profit earned by the post office.
+  correctOptionIndex: 1
+  explanation: Premium is the fixed amount the insured pays to the insurer

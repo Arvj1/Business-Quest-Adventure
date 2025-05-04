@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: ch8_st1_Q 19
+  m_EditorClassIdentifier: 
+  questionText: In the Kissan Vikas Patra Scheme, what happens to the deposited money?
+  options:
+  - ' It earns monthly interest.'
+  - It doubles within a certain period.
+  - It is tax-free.
+  - 'It can be withdrawn anytime. '
+  correctOptionIndex: 1
+  explanation: In this scheme, a fixed sum of money gets doubled within a certain
+    period.

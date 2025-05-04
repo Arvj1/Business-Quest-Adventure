@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: cha8stg1 Q 14
+  m_EditorClassIdentifier: 
+  questionText: Which facility is available for registered letters and speed post
+    letters, where the amount of postage paid date and time are mentioned on the
+    slip?
+  options:
+  - ' Franked postage'
+  - Postal Stamp
+  - Computerised Slip
+  - Payment without affixing any stamp
+  correctOptionIndex: 2
+  explanation: Computerized slips are pasted on mails like registered and speed post
+    letters, indicating postage details, and no separate stamp is needed

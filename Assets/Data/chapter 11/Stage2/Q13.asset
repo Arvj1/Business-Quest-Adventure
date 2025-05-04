@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q13
   m_EditorClassIdentifier: 
-  questionText: What is the purpose of a retailer in trade?
+  questionText: 'Examples of services provided by BPO mentioned in the text include:'
   options:
-  - To buy in bulk from producers
-  - To store goods for future sale
-  - To sell goods directly to consumers in smaller quantities
-  - To manufacture goods for wholesalers
+  - ' Legal Services and Business & Market Research.'
+  - ' Customer care, technical support through voice processes, tele-marketing, sales.'
+  - In-depth knowledge and expertise in specific areas.
+  - Strategic decision-making and core management functions.
   correctOptionIndex: 2
+  explanation: ' Customer care, technical support through voice processes, tele-marketing,
+    sales.
+
+    Explanation: The text provides "customer care, technical support
+    through voice processes, tele-marketing, sales, etc." as examples of BPO services.'

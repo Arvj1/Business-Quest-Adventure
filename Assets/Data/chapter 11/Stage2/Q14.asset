@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q14
   m_EditorClassIdentifier: 
-  questionText: Which of the following best defines commerce?
+  questionText: ' Examples of services provided by KPO mentioned in the text include:'
   options:
-  - The act of producing goods for consumers
-  - The process of buying and selling raw materials
-  - The distribution of goods from producers to consumers, including trade and aids
-    to trade
-  - The financial process of funding a business
+  - Customer care and tele-marketing.
+  - Technical support through voice processes.
+  - Legal Services, Business & Market Research.
+  - Data entry and basic processing tasks.
   correctOptionIndex: 2
+  explanation: Legal Services, Business & Market Research, etc." as examples of KPO
+    services.

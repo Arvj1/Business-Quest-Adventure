@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q9
   m_EditorClassIdentifier: 
-  questionText: 'Insurance in trade is primarily required to manage risks such as:'
+  questionText: 'According to the text, cost savings through BPO can occur because
+    the company:'
   options:
-  - Lack of demand for products
-  - Damage due to accidents, theft, or fire
-  - High competition in the market
-  - Inefficient warehousing
-  correctOptionIndex: 1
+  - Needs to spend more on training its own employees for the outsourced process.
+  - Incurs higher labor costs in other countries.
+  - Does not need to spend on training its own employees for the process.
+  - Has to increase its investment in technology and infrastructure.
+  correctOptionIndex: 2
+  explanation: '"The cost savings happens because the company need not spend training
+    its own employees for the process."'

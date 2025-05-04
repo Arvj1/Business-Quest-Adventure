@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q12
   m_EditorClassIdentifier: 
-  questionText: How does advertising function as an aid to trade?
+  questionText: 'The text indicates that KPO requires employees who are:'
   options:
-  - By storing goods for a long duration
-  - By providing loans to businesses
-  - By creating a desire in consumers to buy a product
-  - By transporting goods to retailers
-  correctOptionIndex: 2
+  - Less skilled than BPO employees.
+  - Highly knowledgeable in the area that is outsourced.
+  - Paid a lower salary than BPO employees.
+  - Primarily focused on voice-based processes.
+  correctOptionIndex: 1
+  explanation: KPO requires highly knowledgeable employees in the area that is outsourced.

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: stg10 1
+  m_EditorClassIdentifier: 
+  questionText: 'The risk that arises due to financial transactions in business is
+    known as:'
+  options:
+  - Marketing Risk
+  - Personnel Risk
+  - Financial Risk
+  - Property Risk
+  correctOptionIndex: 2
+  explanation: ' Financial risk relates to losses or uncertainties in the financial
+    operations of the business, such as credit defaults or interest rate changes.'

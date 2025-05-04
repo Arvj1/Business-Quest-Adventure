@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q1
   m_EditorClassIdentifier: 
-  questionText: Which of the following is NOT a part of commerce?
+  questionText: According to the text, what is "outsourcing"?
   options:
-  - Production of goods
-  - Distribution of goods
-  - Aids to trade
-  - Trade
-  correctOptionIndex: 0
+  - Training employees within the company.
+  - Hiring a third party to perform tasks, handle operations, or provide services.
+  - Expanding the company's internal departments.
+  - Developing new products and services internally.
+  correctOptionIndex: 1
+  explanation: 'Hiring a third party to perform tasks, handle operations, or provide
+    services.
+
+    Explanation: The text defines outsourcing as "a business practice
+    in which a company hires a third party to perform tasks, handle operations or
+    provide services'

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q7
   m_EditorClassIdentifier: 
-  questionText: Which type of transport involves moving goods through roads and rails?
+  questionText: 'The example of BPO provided in the text is:'
   options:
-  - Land transport
-  - Water transport
-  - Air transport
-  - None of the above
-  correctOptionIndex: 0
+  - A company directly managing its customer service department.
+  - A bank outsourcing its loan processing system
+  - A retail store hiring its own security guards
+  - A manufacturing company producing all its components in-house
+  correctOptionIndex: 1
+  explanation: a bank might outsource its loan processing system" as an example of
+    BPO.

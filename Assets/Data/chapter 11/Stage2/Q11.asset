@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q11
   m_EditorClassIdentifier: 
-  questionText: Which of the following aids ensures money for starting and running
-    a business?
+  questionText: ' According to the text, outsourcing of Knowledge Process Outsourcing
+    (KPO) involves functions that are:'
   options:
-  - ' Advertising'
-  - Transportation
-  - Banking
-  - Warehousing
+  - ' Low-end and repetitive.'
+  - Driven by process expertise.
+  - Knowledge-intensive and require specialized domain expertise.
+  - Primarily focused on customer service.
   correctOptionIndex: 2
+  explanation: KPO involves functions that are "Knowledge-intensive and require specialized
+    domain expertise."

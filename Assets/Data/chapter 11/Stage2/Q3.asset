@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q3
   m_EditorClassIdentifier: 
-  questionText: 'The term "trade" specifically refers to:'
+  questionText: ' According to the text, the functions performed by the outsourced
+    party can be done:'
   options:
-  - ' Manufacturing of products'
-  - Buying and selling of goods
-  - Storing goods in warehouses
-  - Advertising products to consumers
-  correctOptionIndex: 1
+  - Only at the third party's location.
+  - Only at the company's location.
+  - On-site or off-site.
+  - Only in countries with lower labor costs.
+  correctOptionIndex: 2
+  explanation: The functions that are performed by the other party can be performed
+    on-site or off-site.

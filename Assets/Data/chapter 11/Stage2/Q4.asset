@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q4
   m_EditorClassIdentifier: 
-  questionText: Who acts as a middleman between producers and consumers?
+  questionText: ' The text states that giving jobs to countries like India or China
+    is commonly called:'
   options:
-  - Transporters
-  - Warehousing agents
-  - Traders
-  - Insurers
+  - Nearshoring.
+  - Homesourcing
+  - Offshoring.
+  - Insourcing.
   correctOptionIndex: 2
+  explanation: The most common model of outsourcing is that these jobs are given
+    to countries like India or China. This is commonly called offshoring.

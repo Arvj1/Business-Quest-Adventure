@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q6
   m_EditorClassIdentifier: 
-  questionText: Which of the following is an aid to trade?
+  questionText: ' According to the text, Business Process Outsourcing (BPO) involves
+    giving which of the following to another party?'
   options:
-  - Transportation
-  - Advertisement
-  - Warehousing
-  - All of the above
-  correctOptionIndex: 3
+  - The company's core strategic decisions.
+  - 'Jobs or processes of the company that would otherwise be performed by company
+    employees. '
+  - ' The ownership and management of the company.'
+  - The development of new technologies for the company.
+  correctOptionIndex: 1
+  explanation: ' BPO as "giving another party, jobs or processes of the company that
+    would otherwise be performed by company employees."'

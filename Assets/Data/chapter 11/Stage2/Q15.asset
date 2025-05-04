@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q15
   m_EditorClassIdentifier: 
-  questionText: 'The movement of goods through air transport is generally done using:'
+  questionText: ' According to the text, the salary of a KPO employee is generally:'
   options:
-  - Boats and ships
-  - Roads and rails
-  - Aeroplanes
-  - Warehouses
+  - The same as a BPO employee
+  - Much lower than a BPO employee.
+  - Much higher than a BPO employee due to their qualifications.
+  - Dependent on the number of calls handled.
   correctOptionIndex: 2
+  explanation: The salary of KPO employee is much higher than offered to the BPO
+    employee as the people working for KPO are highly qualified.

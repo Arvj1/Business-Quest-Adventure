@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q2
   m_EditorClassIdentifier: 
-  questionText: 'The primary role of commerce is to ensure:'
+  questionText: 'The text mentions that an operation outsourced could have been performed
+    by:'
   options:
-  - Production of high-quality goods
-  - ' Free and uninterrupted flow of goods from producers to consumers'
-  - Advertising to increase sales
-  - Risk management during production
-  correctOptionIndex: 1
+  - The company's competitors.
+  - Government agencies.
+  - Employees within the company.
+  - The company's suppliers.
+  correctOptionIndex: 2
+  explanation: The text states, "An operation, job or process that could be performed
+    by employees within a company but is instead contracted to another party..."

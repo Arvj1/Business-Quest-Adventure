@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q10
   m_EditorClassIdentifier: 
-  questionText: What is the regular payment made to an insurance company called?
+  questionText: 'The text mentions that another reason for cost savings through BPO
+    is:'
   options:
-  - Premium
-  - Fee
-  - Interest
-  - Instalment
-  correctOptionIndex: 0
+  - Labor costs are generally higher in other countries.
+  - The company has to hire more employees to manage the outsourced work.
+  - Labor costs are lower in different countries.
+  - The quality of work done by third parties is always lower.
+  correctOptionIndex: 2
+  explanation: labour costs are lower in different countries.

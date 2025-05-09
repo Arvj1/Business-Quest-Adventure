@@ -9136,6 +9136,9 @@ MonoBehaviour:
   correctObj: {fileID: 1202126434}
   incorrectObj: {fileID: 873660889}
   canClick: 1
+  OnGameOver:
+    m_PersistentCalls:
+      m_Calls: []
   mainCamera: {fileID: 656329841}
   zoomDuration: 1
   targetZoom: 3

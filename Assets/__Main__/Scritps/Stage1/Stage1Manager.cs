@@ -2,15 +2,18 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace CH1
 {
     public class Stage1Manager : MonoBehaviour
     {
         public static Stage1Manager Instance;
-        public GameObject activeCharacterObject;
+
+        [HideInInspector] public GameObject activeCharacterObject;
         public CanvasGroup correctObj, incorrectObj;
         public bool canClick = true;
+        public UnityEvent OnGameOver;
 
         public Camera mainCamera;        // Reference to the camera
         public float zoomDuration = 1f;  // Duration of zoom effect
@@ -42,7 +45,7 @@ namespace CH1
 
                 if (correctAnswerCount == 3)
                 {
-                    Debug.Log("Game Over");
+                    OnGameOver.Invoke();
                 }
             }
             else

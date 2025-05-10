@@ -124,7 +124,7 @@ public class C6S1PlayerController : MonoBehaviour
 
     public void FireButtonAction()
     {
-        fireButton.interactable = false;
         fireButtonClicked = true;
+        fireButton.interactable = false;
     }
 }

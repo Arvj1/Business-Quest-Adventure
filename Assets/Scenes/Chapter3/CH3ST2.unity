@@ -372,14 +372,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1680981067}
+    - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1680981066}
     - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
@@ -387,19 +395,43 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UnlockLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: ChangeScence
       objectReference: {fileID: 0}
     - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelUnlocker, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: ChangeInScene, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: CH4_Instruction
       objectReference: {fileID: 0}
     - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321013818361944449, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5784027119281281039, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
@@ -1010,6 +1042,7 @@ GameObject:
   - component: {fileID: 1680981064}
   - component: {fileID: 1680981063}
   - component: {fileID: 1680981066}
+  - component: {fileID: 1680981067}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1101,6 +1134,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 985876daaeb38ae46879a7029126f604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1680981067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680981062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb9c34ec44bf7340983ffe518bbae50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &1716483569 stripped

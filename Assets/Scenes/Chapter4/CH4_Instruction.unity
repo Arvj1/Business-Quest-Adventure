@@ -290,6 +290,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 432926917390756590, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
+      propertyPath: m_text
+      value: 'Intro: In this chapter you will learn coorperative socierties and joint
+        stock companies'
+      objectReference: {fileID: 0}
     - target: {fileID: 778788915338256866, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
       propertyPath: m_Name
       value: CHAPTER INTRO
@@ -377,6 +382,10 @@ PrefabInstance:
     - target: {fileID: 7336573886974553610, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7467925751172446449, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
+      propertyPath: m_text
+      value: Chapter 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

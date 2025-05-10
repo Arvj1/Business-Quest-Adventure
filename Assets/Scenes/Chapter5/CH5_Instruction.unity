@@ -292,8 +292,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 432926917390756590, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
       propertyPath: m_text
-      value: 'Intro: In this chapter you will learn coorperative socierties and joint
-        stock companies'
+      value: 'Intro: In this chapter you will learn about Transport Services'
       objectReference: {fileID: 0}
     - target: {fileID: 778788915338256866, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
       propertyPath: m_Name
@@ -301,7 +300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7109465185867094405, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: CH4ST1
+      value: CH5ST1
       objectReference: {fileID: 0}
     - target: {fileID: 7336573886974553610, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
       propertyPath: m_Pivot.x
@@ -385,7 +384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7467925751172446449, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
       propertyPath: m_text
-      value: Chapter 4
+      value: Chapter 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

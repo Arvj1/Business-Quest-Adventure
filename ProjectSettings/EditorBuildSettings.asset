@@ -48,6 +48,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter5/CH5ST2.unity
     guid: 669418330002c5c43ace3be6ef0dc52d
   - enabled: 1
+    path: Assets/Scenes/Chapter6/CH6_Instruction.unity
+    guid: e8a77b0b66deebe48919742d4ea7d0b2
+  - enabled: 1
     path: Assets/Scenes/Chapter6/CH6ST1.unity
     guid: d344b4b053f00ac4d8eaa2c56dfa02d6
+  - enabled: 1
+    path: Assets/Scenes/Chapter6/CH6ST2.unity
+    guid: f9dac6f03808d384a87f3a00b04df8af
   m_configObjects: {}

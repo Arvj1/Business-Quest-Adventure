@@ -92,4 +92,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter11/CH11ST1.unity
     guid: 1912b988361eaf646ba74115389ed30c
+  - enabled: 1
+    path: Assets/Scenes/Chapter12/CH12_Instruction.unity
+    guid: ca05fa2f4f2758242a5211bad67d528a
+  - enabled: 1
+    path: Assets/Scenes/Chapter12/CH12ST1.unity
+    guid: 838a648f513e802419dc9ea1ee086d59
   m_configObjects: {}

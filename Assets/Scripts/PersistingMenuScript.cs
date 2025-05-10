@@ -7,6 +7,7 @@ public class PersistingMenuScript : MonoBehaviour
 {
     public static PersistingMenuScript Instance;
     public LevelsDataSO levelData;
+    public AudioSource bgAudioSource;
     [SerializeField] GameObject pausePanel;
     [SerializeField] Button pauseButton;
 

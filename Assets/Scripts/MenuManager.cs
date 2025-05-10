@@ -9,14 +9,25 @@ public class MenuManager : MonoBehaviour
 {
     [SerializeField] GameObject chapterListItem;
     [SerializeField] Transform parentTr;
+    [SerializeField] TMP_Text percentageTxt;
+    [SerializeField] Slider bgAudioSlider;
 
     private void Start()
     {
         Setup();
     }
 
+    public void OnAudioSliderValueChange(float value)
+    {
+        PersistingMenuScript.Instance.bgAudioSource.volume = value;
+        percentageTxt.text = (value * 100).ToString("F0") + "%";
+    }
+
     private void Setup()
     {
+        bgAudioSlider.value = PersistingMenuScript.Instance.bgAudioSource.volume;
+        percentageTxt.text = (PersistingMenuScript.Instance.bgAudioSource.volume * 100f).ToString("F0") + "%";
+
         for (int i = 2; i <= 15; i++)
         {
             int chapterNumber = i; // Capture the loop variable

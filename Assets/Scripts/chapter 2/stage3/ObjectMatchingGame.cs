@@ -1,8 +1,10 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 public class ObjectMatchingGame : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
+    public CH2ST3Manager manager;
     public int matchID; // Set this in the inspector or dynamically
     private LineRenderer lineRenderer;
     private GameObject startObject;
@@ -21,8 +23,8 @@ public class ObjectMatchingGame : MonoBehaviour, IPointerDownHandler, IPointerUp
 
         // Set material for the line (optional)
         lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
-        lineRenderer.startColor = Color.green;
-        lineRenderer.endColor = Color.green;
+        lineRenderer.startColor = new Color(193, 225, 193, 200);
+        lineRenderer.endColor = new Color(193, 225, 193, 200);
         lineRenderer.sortingOrder = 25;
     }
 
@@ -59,6 +61,11 @@ public class ObjectMatchingGame : MonoBehaviour, IPointerDownHandler, IPointerUp
             if (endScript != null && matchID == endScript.Get_ID())
             {
                 lineRenderer.SetPosition(1, endObject.transform.position); // Finalize line
+                manager.count++;
+                if(manager.count == 5)
+                {
+                    manager.OnGameOver.Invoke();
+                }
                 Debug.Log("Matched!");
             }
             else

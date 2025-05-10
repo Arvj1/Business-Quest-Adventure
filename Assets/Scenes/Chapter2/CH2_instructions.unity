@@ -290,10 +290,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 432926917390756590, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
-      propertyPath: m_text
-      value: 'Intro: In this chapter you will learn about industry and commerce. '
-      objectReference: {fileID: 0}
     - target: {fileID: 778788915338256866, guid: 0d5b06ce9b5b735489c12539ae0a9090, type: 3}
       propertyPath: m_Name
       value: CHAPTER INTRO

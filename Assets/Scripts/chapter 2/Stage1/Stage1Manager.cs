@@ -8,6 +8,7 @@ public class Stage1Manager : MonoBehaviour
 {
     [SerializeField] RectTransform startTransform, endTransform;
     [SerializeField] GameObject[] products;
+    [SerializeField] CanvasGroup correctCG, wrongCG;
     private int count = 0,index=0;
     public UnityEvent OnGameOver;
 
@@ -36,9 +37,21 @@ public class Stage1Manager : MonoBehaviour
     public void CheckCorrectAnswer(GameObject dragged, GameObject dropLocation) {
         Debug.Log($"{dragged.tag} {dropLocation.tag}");
         if (dragged.tag == dropLocation.tag) { 
-        Destroy(dragged.gameObject);
+            Destroy(dragged.gameObject);
             count++;
+            correctCG.DOFade(1, 0.5f).OnComplete(() =>
+            {
+                correctCG.DOFade(0, 1f);
+            });
         }
+        else
+        {
+            wrongCG.DOFade(1, 0.5f).OnComplete(() =>
+            {
+                wrongCG.DOFade(0, 1f);
+            });
+        }
+
         if (count == 6) {
             count = 0;
             index++;

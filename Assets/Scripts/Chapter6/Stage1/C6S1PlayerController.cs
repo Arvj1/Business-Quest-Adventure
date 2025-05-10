@@ -1,6 +1,7 @@
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class C6S1PlayerController : MonoBehaviour
@@ -11,15 +12,24 @@ public class C6S1PlayerController : MonoBehaviour
     public GameObject bulletPrefab;
     public Image coolDownBackFill;
     public TMP_Text cooldownTxt;
+    public Button fireButton, leftButton, rightButton;
 
     private float screenLeftBound;
     private float screenRightBound;
     private float playerWidth;
     private float cooldownTime = 0.0f;
     private bool bulletShot = false;
+    private bool isMovingLeft = false, isMovingRight = false, fireButtonClicked = false;
 
     private void Start()
     {
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            leftButton.gameObject.SetActive(true);
+            rightButton.gameObject.SetActive(true);
+            fireButton.gameObject.SetActive(true);
+        }
+
         // Get screen bounds in world coordinates
         screenLeftBound = Camera.main.ScreenToWorldPoint(Vector3.zero).x;
         screenRightBound = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x;
@@ -40,9 +50,10 @@ public class C6S1PlayerController : MonoBehaviour
 
             transform.position = new Vector3(newX, transform.position.y, transform.position.z);
 
-            if (!bulletShot && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0)))
+            if (!bulletShot && ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0)) || fireButtonClicked))
             {
                 bulletShot = true;
+                fireButtonClicked = false;
                 GameObject bulletObj = Instantiate(bulletPrefab, spawnLocationTr.position, Quaternion.identity, bulletParentTr);
 
                 bulletObj.GetComponent<C6S1BulletHandler>().OnHitOption.AddListener(manager.CheckCorrectAnswer);
@@ -58,6 +69,7 @@ public class C6S1PlayerController : MonoBehaviour
             cooldownTxt.text = cooldownTime.ToString("F1");
             if(cooldownTime >= bulletCooldownTime)
             {
+                fireButton.interactable = true;
                 coolDownBackFill.fillAmount = 1;
                 cooldownTxt.color = Color.black;
                 coolDownBackFill.color = Color.green;
@@ -66,5 +78,53 @@ public class C6S1PlayerController : MonoBehaviour
                 bulletShot = false;
             }
         }
+
+        if(isMovingLeft)
+        {
+            float newX = transform.position.x + (-speed * Time.deltaTime);
+
+            // Clamp player position within bounds
+            newX = Mathf.Clamp(newX, screenLeftBound + playerWidth, screenRightBound - playerWidth);
+
+            transform.position = new Vector3(newX, transform.position.y, transform.position.z);
+        }
+
+        if (isMovingRight)
+        {
+            float newX = transform.position.x + (speed * Time.deltaTime);
+
+            // Clamp player position within bounds
+            newX = Mathf.Clamp(newX, screenLeftBound + playerWidth, screenRightBound - playerWidth);
+
+            transform.position = new Vector3(newX, transform.position.y, transform.position.z);
+        }
+    }
+
+    public void MoveLeftPointerDown()
+    {
+        isMovingRight = false;
+        isMovingLeft = true;
+    }
+
+    public void MoveLeftPointerUp()
+    {
+        isMovingLeft = false;
+    }
+
+    public void MoveRightPointerDown()
+    {
+        isMovingLeft = false;
+        isMovingRight = true;
+    }
+
+    public void MoveRightPointerUp()
+    {
+        isMovingRight = false;
+    }
+
+    public void FireButtonAction()
+    {
+        fireButton.interactable = false;
+        fireButtonClicked = true;
     }
 }

@@ -1473,6 +1473,7 @@ MonoBehaviour:
   chapterListItem: {fileID: 6851082408323328135, guid: 4d0cd7305fdd5b5459bac46351db5683, type: 3}
   parentTr: {fileID: 86963937}
   percentageTxt: {fileID: 1034022640}
+  playBtnText: {fileID: 1931523638}
   bgAudioSlider: {fileID: 833720097}
 --- !u!1 &532894353
 GameObject:
@@ -2381,7 +2382,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage1
+          m_StringArgument: CH2_Instructions
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &790439459

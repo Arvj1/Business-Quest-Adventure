@@ -9,7 +9,7 @@ public class MenuManager : MonoBehaviour
 {
     [SerializeField] GameObject chapterListItem;
     [SerializeField] Transform parentTr;
-    [SerializeField] TMP_Text percentageTxt;
+    [SerializeField] TMP_Text percentageTxt, playBtnText;
     [SerializeField] Slider bgAudioSlider;
 
     private void Start()
@@ -25,6 +25,17 @@ public class MenuManager : MonoBehaviour
 
     private void Setup()
     {
+        if (PersistingMenuScript.Instance.levelData.unlockedLevels[3])
+        {
+            playBtnText.text = "Resume Game";
+        }
+        else
+        {
+            playBtnText.text = "Start New Game";
+        }
+
+
+
         bgAudioSlider.value = PersistingMenuScript.Instance.bgAudioSource.volume;
         percentageTxt.text = (PersistingMenuScript.Instance.bgAudioSource.volume * 100f).ToString("F0") + "%";
 

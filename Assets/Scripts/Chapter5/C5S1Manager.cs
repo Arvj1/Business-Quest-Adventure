@@ -37,7 +37,10 @@ public class CH : MonoBehaviour
     {
         if (dragged.CompareTag(dropped.tag))
         {
-            correctCG.DOFade(1, 1f);
+            correctCG.DOFade(1, 1f).OnComplete(() =>
+            {
+                correctCG.DOFade(0, 1f);
+            });
             dropItems[idx].transform.DOMove(dropEndPos.position, 1f).OnComplete(() =>
             {
                 idx++;
@@ -46,7 +49,10 @@ public class CH : MonoBehaviour
         }
         else
         {
-            wrongCG.DOFade(1, 1f);
+            wrongCG.DOFade(1, 1f).OnComplete(() =>
+            {
+                wrongCG.DOFade(0, 1f);
+            });
         }
     }
 }

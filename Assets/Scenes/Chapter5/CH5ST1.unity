@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 142256650}
   m_Layer: 5
   m_Name: Cable Car
-  m_TagString: Cable Car
+  m_TagString: Cable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -245,7 +245,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnDroped:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 319860055}
+        m_TargetAssemblyTypeName: CH, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &156780194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -256,11 +268,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1771819534145419747, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_TagString
-      value: Pipe Line
+      value: Pipeline
       objectReference: {fileID: 0}
     - target: {fileID: 3009780086308458640, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_TagString
-      value: Airplane
+      value: Air
       objectReference: {fileID: 0}
     - target: {fileID: 3232785353932380929, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_Type
@@ -288,11 +300,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3786891907665169733, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_TagString
-      value: Cable Car
+      value: Cable
       objectReference: {fileID: 0}
     - target: {fileID: 4071660089336821613, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_TagString
-      value: Bull Cart
+      value: Animal
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_Pivot.x
@@ -300,7 +312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_Pivot.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -308,7 +320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_AnchorMin.x
@@ -316,15 +328,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 13.832
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 304.9561
+      value: 304.95605
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -356,11 +368,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -2484
+      value: -2366
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 644
+      value: -93
       objectReference: {fileID: 0}
     - target: {fileID: 4589871721162871400, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -408,7 +420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6759162560020782369, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_TagString
-      value: Car
+      value: Motor
       objectReference: {fileID: 0}
     - target: {fileID: 6797430353480814511, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_Type
@@ -460,7 +472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7154893661765343120, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_TagString
-      value: Rikshaw
+      value: Man
       objectReference: {fileID: 0}
     - target: {fileID: 7724437691240842348, guid: d4662e5ab3ae7464b86bfe37d3e96d1b, type: 3}
       propertyPath: m_Type
@@ -699,7 +711,7 @@ GameObject:
   - component: {fileID: 158887882}
   m_Layer: 5
   m_Name: Pipeline
-  m_TagString: Pipe Line
+  m_TagString: Pipeline
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -775,7 +787,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnDroped:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 319860055}
+        m_TargetAssemblyTypeName: CH, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!225 &166729079
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -827,7 +851,7 @@ GameObject:
   - component: {fileID: 167576527}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Cable Car
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -962,7 +986,7 @@ GameObject:
   - component: {fileID: 200371379}
   m_Layer: 5
   m_Name: Bull Cart
-  m_TagString: Bull Cart
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1038,7 +1062,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnDroped:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 319860055}
+        m_TargetAssemblyTypeName: CH, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &226739961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,7 +1089,7 @@ GameObject:
   - component: {fileID: 226739965}
   m_Layer: 5
   m_Name: Helicopter
-  m_TagString: helicopter
+  m_TagString: Air
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1129,7 +1165,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnDroped:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 319860055}
+        m_TargetAssemblyTypeName: CH, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &235970531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,7 +1509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2347, y: 104.11505}
+  m_AnchoredPosition: {x: -2347, y: 288}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &429977142
@@ -1477,7 +1525,7 @@ GameObject:
   - component: {fileID: 429977144}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Rikshaw
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1869,7 +1917,7 @@ GameObject:
   - component: {fileID: 619478977}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Airplane
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2153,7 +2201,7 @@ GameObject:
   - component: {fileID: 915610711}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Pipe Line
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2322,7 +2370,7 @@ GameObject:
   - component: {fileID: 1064630340}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Car
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2734,7 +2782,7 @@ GameObject:
   - component: {fileID: 1347660255}
   m_Layer: 5
   m_Name: Rikshaw
-  m_TagString: Rikshaw
+  m_TagString: Man
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2810,7 +2858,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnDroped:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 319860055}
+        m_TargetAssemblyTypeName: CH, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1365439366
 GameObject:
   m_ObjectHideFlags: 0
@@ -3133,7 +3193,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 132.2
+  m_fontSize: 132.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3215,7 +3275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.9160767, y: 104.11505}
+  m_AnchoredPosition: {x: 2, y: 423}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1815215474 stripped
@@ -3237,7 +3297,7 @@ GameObject:
   - component: {fileID: 1875819108}
   m_Layer: 5
   m_Name: Car
-  m_TagString: Car
+  m_TagString: Motor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3313,7 +3373,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnDroped:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 319860055}
+        m_TargetAssemblyTypeName: CH, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1931378080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3486,6 +3558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Instruction Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6876415230826082405, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7380088051339639890, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_SizeDelta.y
       value: 22489.73
@@ -3657,7 +3733,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 138.05
+  m_fontSize: 137.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3868,7 +3944,7 @@ GameObject:
   - component: {fileID: 2015525270}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Bull Cart
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4003,7 +4079,7 @@ GameObject:
   - component: {fileID: 2035994312}
   m_Layer: 5
   m_Name: Airplane
-  m_TagString: Airplane
+  m_TagString: Air
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4079,7 +4155,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnDroped:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 319860055}
+        m_TargetAssemblyTypeName: CH, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -52,11 +52,10 @@ public class ObjectMatchingGame : MonoBehaviour, IPointerDownHandler, IPointerUp
 
         // Detect object under the pointer
         GameObject endObject = eventData.pointerCurrentRaycast.gameObject;
-
+        
         if (endObject != null)
         {
             ObjectMatchForm endScript = endObject.GetComponent<ObjectMatchForm>();
-
             // Check matchID
             if (endScript != null && matchID == endScript.Get_ID())
             {

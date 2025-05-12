@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q3
   m_EditorClassIdentifier: 
-  questionText: 'The term "trade" specifically refers to:'
+  questionText: Which of the following is not a function of a wholesaler?
   options:
-  - ' Manufacturing of products'
-  - Buying and selling of goods
-  - Storing goods in warehouses
-  - Advertising products to consumers
-  correctOptionIndex: 1
+  - Selling goods in small quantities to consumers
+  - Grading and packaging products
+  - ' Providing credit to retailers'
+  - Buying goods in bulk from producers
+  correctOptionIndex: 0
+  explanation: "Wholesalers don\u2019t usually sell to consumers; they primarily
+    serve retailers.\r\n"

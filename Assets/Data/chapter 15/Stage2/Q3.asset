@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q3
   m_EditorClassIdentifier: 
-  questionText: 'The term "trade" specifically refers to:'
+  questionText: Which of the following is not a feature of advertising?
   options:
-  - ' Manufacturing of products'
-  - Buying and selling of goods
-  - Storing goods in warehouses
-  - Advertising products to consumers
+  - Paid communication
+  - Direct contact with the consumer
+  - Identified sponsor
+  - Use of media
   correctOptionIndex: 1
+  explanation: Advertising is non-personal, meaning there is no face-to-face or direct
+    contact with individual consumers.

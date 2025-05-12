@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q5
   m_EditorClassIdentifier: 
-  questionText: What distinguishes wholesale trade from retail trade?
+  questionText: How does advertising help salesmen?
   options:
-  - ' Wholesale trade involves direct contact with consumers.'
-  - Wholesalers buy large quantities, while retailers buy smaller quantities.
-  - Retail trade involves selling only to wholesalers.
-  - Wholesale trade excludes middlemen.
-  correctOptionIndex: 1
+  - By reducing their salaries
+  - By replacing them
+  - By giving complete product information in advance
+  - By reducing customer visits
+  correctOptionIndex: 2
+  explanation: Advertising helps salespeople by already making customers aware of
+    product features, making it easier to close sales.

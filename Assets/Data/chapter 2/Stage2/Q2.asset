@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q2
   m_EditorClassIdentifier: 
-  questionText: 'The primary role of commerce is to ensure:'
+  questionText: "Which of the following best defines \u2018trade\u2019?"
   options:
-  - Production of high-quality goods
-  - ' Free and uninterrupted flow of goods from producers to consumers'
-  - Advertising to increase sales
-  - Risk management during production
+  - Storage of goods
+  - Buying and selling of goods
+  - Production of goods
+  - Advertising of products
   correctOptionIndex: 1
+  explanation: Trade refers specifically to the buying and selling of goods. It forms
+    a major part of commerce and involves traders who act as middlemen.

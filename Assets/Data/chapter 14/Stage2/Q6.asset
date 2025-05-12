@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q6
   m_EditorClassIdentifier: 
-  questionText: Which of the following is an aid to trade?
+  questionText: What is a major advantage of multiple shops?
   options:
-  - Transportation
-  - Advertisement
-  - Warehousing
-  - All of the above
-  correctOptionIndex: 3
+  - Unlimited product variety
+  - Free credit to loyal customers
+  - Low prices due to economies of scale
+  - Bargaining allowed on all items
+  correctOptionIndex: 2
+  explanation: Because they buy in bulk directly from the manufacturer and have centralized
+    advertising, multiple shops offer goods at lower prices.

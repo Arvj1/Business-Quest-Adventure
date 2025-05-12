@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q4
   m_EditorClassIdentifier: 
-  questionText: Who acts as a middleman between producers and consumers?
+  questionText: Which type of trade involves buying in large quantities and selling
+    to retailers?
   options:
-  - Transporters
-  - Warehousing agents
-  - Traders
-  - Insurers
+  - Retail Trade
+  - Direct Trade
+  - Wholesale Trade
+  - Online Trade
   correctOptionIndex: 2
+  explanation: Wholesalers buy in bulk from producers and sell in smaller lots to
+    retailers. This process facilitates efficient distribution in the supply chain.

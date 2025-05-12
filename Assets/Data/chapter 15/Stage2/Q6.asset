@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q6
   m_EditorClassIdentifier: 
-  questionText: Which of the following is an aid to trade?
+  questionText: Which of the following is not part of print media?
   options:
-  - Transportation
-  - Advertisement
-  - Warehousing
-  - All of the above
+  - Newspapers
+  - Periodicals
+  - Journals
+  - Television
   correctOptionIndex: 3
+  explanation: Television is part of electronic media, while newspapers, periodicals,
+    and journals belong to print media.

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q1
   m_EditorClassIdentifier: 
-  questionText: Which of the following is NOT a part of commerce?
+  questionText: What is advertising primarily used for?
   options:
-  - Production of goods
-  - Distribution of goods
-  - Aids to trade
-  - Trade
-  correctOptionIndex: 0
+  - Personal communication
+  - Face-to-face promotion
+  - Non-personal promotion of ideas, goods, and services
+  - Secret selling of products
+  correctOptionIndex: 2
+  explanation: Advertising is defined as a paid, non-personal form of communication
+    used to present and promote products, services, or ideas to a large audience.

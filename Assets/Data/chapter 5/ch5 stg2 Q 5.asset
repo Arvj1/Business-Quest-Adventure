@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 5
   m_EditorClassIdentifier: 
-  questionText: Which of these is a key characteristic of an ideal warehouse?
+  questionText: Which is the most commonly used transport in hilly areas?
   options:
-  - ' Built inside city malls'
-  - No parking space required
-  - Equipped with fire-fighting equipment
-  - Open to rain and dust
-  correctOptionIndex: 2
-  explanation: " Fire safety is essential for storing valuable goods\u200B\n"
+  - Rail transport
+  - Ropeway
+  - Pipelines
+  - Sea transport
+  correctOptionIndex: 1
+  explanation: Ropeways are ideal in hilly terrains or where roads and rails cannot
+    be constructed easily. They are used to transport both people and goods across
+    valleys and hills.

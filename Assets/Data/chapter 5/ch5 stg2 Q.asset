@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q
   m_EditorClassIdentifier: 
-  questionText: 'An ideal warehouse must be located:'
+  questionText: What is the main role of transportation in business?
   options:
-  - Inside city malls
-  - Close to highways, ports, or railway stations
-  - in remote villages
-  - Near forests for cheap land
+  - Buying raw materials
+  - Moving goods and people from one place to another
+  - Advertising products
+  - Storing goods
   correctOptionIndex: 1
-  explanation: " Easy transportation access is crucial for efficient loading and
-    unloading\u200B\n"
+  explanation: Transportation enables the movement of raw materials to factories
+    and finished goods to consumers. It also moves people between locations for work,
+    trade, or daily needs.

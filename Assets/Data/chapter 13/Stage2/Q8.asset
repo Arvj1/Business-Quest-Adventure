@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q8
   m_EditorClassIdentifier: 
-  questionText: What is the primary purpose of warehousing in trade?
+  questionText: 'Why is storage an important function of both wholesalers and retailers?
+
+'
   options:
-  - To ensure advertising reaches consumers
-  - To store goods safely until they are sold
-  - To transport goods across regions
-  - To calculate risks associated with trade
-  correctOptionIndex: 1
+  - It increases taxes
+  - It reduces the variety of goods
+  - It ensures ready supply of goods
+  - It eliminates competition
+  correctOptionIndex: 2
+  explanation: Storage ensures products are available when needed, avoiding delays
+    or spoilage.

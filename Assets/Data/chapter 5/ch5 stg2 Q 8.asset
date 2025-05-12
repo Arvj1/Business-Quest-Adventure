@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 8
   m_EditorClassIdentifier: 
-  questionText: ' How does warehousing help in price stabilization?'
+  questionText: What is a limitation of road transport?
   options:
-  - ' By spoiling goods to reduce prices'
-  - By creating artificial scarcity
-  - By maintaining stock to meet demand
-  - By hoarding goods illegally
+  - Slow speed
+  - Not suitable for perishable goods
+  - Affected by weather and limited carrying capacity
+  - Fixed time schedule
   correctOptionIndex: 2
-  explanation: Warehousing controls supply and prevents sudden price hikes
+  explanation: Road transport is less effective during floods, heavy rain, or landslides,
+    and cannot carry very large or heavy loads economically.

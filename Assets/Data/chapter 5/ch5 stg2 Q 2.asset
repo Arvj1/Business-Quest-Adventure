@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 2
   m_EditorClassIdentifier: 
-  questionText: "What is the warehouse-keeper\u2019s warrant used for?"
+  questionText: Who are called transporters in the context of business?
   options:
-  - Buying more goods
-  - Getting bank loans
-  - Storing more goods
-  - Avoiding taxes
-  correctOptionIndex: 1
-  explanation: This document acts as proof of goods stored and helps in securing
-    loans
+  - Drivers only
+  - Companies that sell vehicles
+  - Individuals or firms involved in transport services
+  - Government officials
+  correctOptionIndex: 2
+  explanation: People or companies who operate vehicles or systems to move goods
+    and passengers are known as transporters.

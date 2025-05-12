@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q9
   m_EditorClassIdentifier: 
-  questionText: 'Insurance in trade is primarily required to manage risks such as:'
+  questionText: How do retailers help producers indirectly?
   options:
-  - Lack of demand for products
-  - Damage due to accidents, theft, or fire
-  - High competition in the market
-  - Inefficient warehousing
-  correctOptionIndex: 1
+  - By reducing prices
+  - By giving loans
+  - By providing information about consumer demand
+  - By selling raw materials
+  correctOptionIndex: 2
+  explanation: Retailers pass on market feedback (likes, trends) to wholesalers and
+    producers.

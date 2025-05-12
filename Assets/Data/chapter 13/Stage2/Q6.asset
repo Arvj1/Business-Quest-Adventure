@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q6
   m_EditorClassIdentifier: 
-  questionText: Which of the following is an aid to trade?
+  questionText: What differentiates retailers from wholesalers?
   options:
-  - Transportation
-  - Advertisement
-  - Warehousing
-  - All of the above
-  correctOptionIndex: 3
+  - They sell in bulk
+  - They deal only with producers
+  - They have direct contact with consumers
+  - They operate warehouses
+  correctOptionIndex: 2
+  explanation: 'Retailers directly interact with consumers and understand their preferences.
+
+'

@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 3
   m_EditorClassIdentifier: 
-  questionText: 'Grading and branding of goods inside warehouses helps in:'
+  questionText: Which of these is not an advantage of transport?
   options:
-  - Wasting time
-  - Hiding defects
-  - Making sale and inspection easier
-  - Avoiding customers
-  correctOptionIndex: 2
-  explanation: "Grading and branding inside warehouses prepare goods better for market
-    sale\u200B"
+  - Increases costs of goods
+  - Helps in labour mobility
+  - Supports during emergencies
+  - Brings nations together
+  correctOptionIndex: 0
+  explanation: Transport actually helps reduce costs through large-scale production
+    and wider distribution, not increase them. The other options are direct benefits
+    of transport.

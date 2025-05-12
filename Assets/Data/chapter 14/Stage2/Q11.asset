@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q11
   m_EditorClassIdentifier: 
-  questionText: Which of the following aids ensures money for starting and running
-    a business?
+  questionText: What is a key disadvantage of mail order business?
   options:
-  - ' Advertising'
-  - Transportation
-  - Banking
-  - Warehousing
+  - It provides written records of sales
+  - It needs minimal advertising
+  - No physical inspection of goods before buying
+  - It sells perishable goods only
   correctOptionIndex: 2
+  explanation: Since the goods are ordered and delivered through the mail, the buyer
+    cannot inspect the product until it arrives.

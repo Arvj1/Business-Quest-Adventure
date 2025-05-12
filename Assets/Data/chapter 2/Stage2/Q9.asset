@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q9
   m_EditorClassIdentifier: 
-  questionText: 'Insurance in trade is primarily required to manage risks such as:'
+  questionText: Which of the following services is typically not provided by banks
+    to businesses
   options:
-  - Lack of demand for products
-  - Damage due to accidents, theft, or fire
-  - High competition in the market
-  - Inefficient warehousing
+  - Providing loans
+  - Transporting goods
+  - Accepting deposits
+  - Facilitating online payments
   correctOptionIndex: 1
+  explanation: While banks provide loans, payment services, and deposits, transporting
+    goods is the function of transportation services, not banks.

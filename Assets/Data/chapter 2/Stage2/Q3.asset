@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q3
   m_EditorClassIdentifier: 
-  questionText: 'The term "trade" specifically refers to:'
+  questionText: ' Who acts as a middleman between the producer and the consumer in
+    trade?'
   options:
-  - ' Manufacturing of products'
-  - Buying and selling of goods
-  - Storing goods in warehouses
-  - Advertising products to consumers
-  correctOptionIndex: 1
+  - Advertiser
+  - Banker
+  - Trader
+  - Insurer
+  correctOptionIndex: 2
+  explanation: A trader is someone who buys goods from producers or wholesalers and
+    sells them to consumers, acting as an intermediary or middleman.

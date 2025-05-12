@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q2
   m_EditorClassIdentifier: 
-  questionText: 'The primary role of commerce is to ensure:'
+  questionText: Which of the following is a limitation of departmental stores?
   options:
-  - Production of high-quality goods
-  - ' Free and uninterrupted flow of goods from producers to consumers'
-  - Advertising to increase sales
-  - Risk management during production
-  correctOptionIndex: 1
+  - They are located in residential areas
+  - They provide poor quality goods
+  - They offer no variety of products
+  - They require a large amount of capital to operate
+  correctOptionIndex: 3
+  explanation: Departmental stores are large and centrally located. Setting them
+    up involves huge investment in infrastructure, staffing, and stock.

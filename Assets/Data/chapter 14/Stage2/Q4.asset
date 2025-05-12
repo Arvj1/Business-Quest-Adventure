@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q4
   m_EditorClassIdentifier: 
-  questionText: Who acts as a middleman between producers and consumers?
+  questionText: Which is not a limitation of super bazaars?
   options:
-  - Transporters
-  - Warehousing agents
-  - Traders
-  - Insurers
-  correctOptionIndex: 2
+  - Lack of credit facility
+  - Located far from residential areas
+  - Inefficient management
+  - High capital investment needed
+  correctOptionIndex: 1
+  explanation: In fact, super bazaars are centrally located near residential areas
+    for easy access. Other options are actual limitations of super bazaars.

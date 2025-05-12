@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q7
   m_EditorClassIdentifier: 
-  questionText: Which type of transport involves moving goods through roads and rails?
+  questionText: Which of the following is a limitation of multiple shops?
   options:
-  - Land transport
-  - Water transport
-  - Air transport
-  - None of the above
-  correctOptionIndex: 0
+  - Variety of products
+  - No fixed prices
+  - Limited choice of items
+  - Products are not branded
+  correctOptionIndex: 2
+  explanation: Multiple shops usually sell goods from a single manufacturer or brand,
+    so customers have fewer product options.

@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 7
   m_EditorClassIdentifier: 
-  questionText: 'Processing like polishing paddy or ripening fruits can be done in:'
+  questionText: What is the main advantage of rail transport over road transport?
   options:
-  - Shopping malls
-  - Warehouses
-  - Public offices
-  - Factories only
-  correctOptionIndex: 1
-  explanation: ' Some warehouses perform basic processing functions'
+  - Lower construction cost
+  - Shorter travel time
+  - Faster and better for long distances
+  - Flexible routes
+  correctOptionIndex: 2
+  explanation: Railways are suitable for moving large quantities of goods and passengers
+    efficiently over long distances.

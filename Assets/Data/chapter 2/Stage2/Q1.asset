@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q1
   m_EditorClassIdentifier: 
-  questionText: Which of the following is NOT a part of commerce?
+  questionText: ' What is the primary focus of commerce in business?'
   options:
   - Production of goods
   - Distribution of goods
-  - Aids to trade
-  - Trade
-  correctOptionIndex: 0
+  - Manufacturing of raw materials
+  - Construction of infrastructure
+  correctOptionIndex: 1
+  explanation: commerce is mainly concerned with the distribution of goods and ensures
+    a free and uninterrupted flow of goods from producers to consumers.

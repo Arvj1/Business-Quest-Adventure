@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q12
   m_EditorClassIdentifier: 
-  questionText: How does advertising function as an aid to trade?
+  questionText: 'Factory outlets are known for:'
   options:
-  - By storing goods for a long duration
-  - By providing loans to businesses
-  - By creating a desire in consumers to buy a product
-  - By transporting goods to retailers
+  - Selling goods of unknown quality
+  - Providing inflated prices
+  - Selling products directly from manufacturers
+  - Only selling used items
   correctOptionIndex: 2
+  explanation: Factory outlets are retail stores operated by manufacturers to sell
+    directly to consumers, often at lower prices.

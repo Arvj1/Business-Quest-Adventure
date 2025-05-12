@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q7
   m_EditorClassIdentifier: 
-  questionText: Which type of transport involves moving goods through roads and rails?
+  questionText: Who typically requires more capital to start a business?
   options:
-  - Land transport
-  - Water transport
-  - Air transport
-  - None of the above
-  correctOptionIndex: 0
+  - Retailer
+  - Wholesaler
+  - Consumer
+  - Shop assistant
+  correctOptionIndex: 1
+  explanation: Wholesalers handle bulk transactions and need more capital than retailers.

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q9
   m_EditorClassIdentifier: 
-  questionText: 'Insurance in trade is primarily required to manage risks such as:'
+  questionText: What makes radio advertising suitable for illiterate people?
   options:
-  - Lack of demand for products
-  - Damage due to accidents, theft, or fire
-  - High competition in the market
-  - Inefficient warehousing
-  correctOptionIndex: 1
+  - It uses printed messages
+  - It is done through hoardings
+  - It uses audio to reach all listeners
+  - It has video features
+  correctOptionIndex: 2
+  explanation: Since radio is audio-based, people who cannot read or write can still
+    understand the message.

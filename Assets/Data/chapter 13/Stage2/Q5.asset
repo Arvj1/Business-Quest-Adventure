@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q5
   m_EditorClassIdentifier: 
-  questionText: What distinguishes wholesale trade from retail trade?
+  questionText: Which of these is a key function of a retailer?
   options:
-  - ' Wholesale trade involves direct contact with consumers.'
-  - Wholesalers buy large quantities, while retailers buy smaller quantities.
-  - Retail trade involves selling only to wholesalers.
-  - Wholesale trade excludes middlemen.
-  correctOptionIndex: 1
+  - Manufacturing the goods
+  - Selling goods to other wholesalers
+  - Selling goods in bulk
+  - Providing personal services to consumers
+  correctOptionIndex: 3
+  explanation: Retailers offer personalized service (like advice or home delivery)
+    to consumers.

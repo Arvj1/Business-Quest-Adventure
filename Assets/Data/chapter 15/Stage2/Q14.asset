@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q14
   m_EditorClassIdentifier: 
-  questionText: Which of the following best defines commerce?
+  questionText: 'A drawback of internet advertising is:'
   options:
-  - The act of producing goods for consumers
-  - The process of buying and selling raw materials
-  - The distribution of goods from producers to consumers, including trade and aids
-    to trade
-  - The financial process of funding a business
+  - Easy global reach
+  - Offline viewing available
+  - Requires computer and internet knowledge
+  - No visual content
   correctOptionIndex: 2
+  explanation: Not everyone is comfortable or equipped with digital skills or devices,
+    which limits the reach of online ads.

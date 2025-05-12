@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q10
   m_EditorClassIdentifier: 
-  questionText: What is the regular payment made to an insurance company called?
+  questionText: Which of these is a benefit of vending machines?
   options:
-  - Premium
-  - Fee
-  - Interest
-  - Instalment
-  correctOptionIndex: 0
+  - Credit facility is provided
+  - ' Open only during business hours'
+  - No need for a salesperson
+  - Requires a lot of staff
+  correctOptionIndex: 2
+  explanation: ' Vending machines are self-operating and allow purchases without
+    staff, making them cost-effective and convenient'

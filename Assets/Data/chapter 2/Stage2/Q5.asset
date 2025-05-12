@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q5
   m_EditorClassIdentifier: 
-  questionText: What distinguishes wholesale trade from retail trade?
+  questionText: Which of the following is not considered an aid to trade?
   options:
-  - ' Wholesale trade involves direct contact with consumers.'
-  - Wholesalers buy large quantities, while retailers buy smaller quantities.
-  - Retail trade involves selling only to wholesalers.
-  - Wholesale trade excludes middlemen.
-  correctOptionIndex: 1
+  - Transportation
+  - Warehousing
+  - Construction
+  - Insurance
+  correctOptionIndex: 2
+  explanation: Aids to trade include services like transportation, warehousing, banking,
+    insurance, and advertising. Construction is related to industry, not commerce.

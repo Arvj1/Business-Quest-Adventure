@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
+  m_Name: Q15 5
+  m_EditorClassIdentifier: 
+  questionText: What is a general disadvantage of all advertising media?
+  options:
+  - Cannot reach anyone
+  - Involves cost
+  - Only for government products
+  - Replaces salesmen
+  correctOptionIndex: 1
+  explanation: "All media require payment\u2014whether it's for a newspaper ad, a
+    TV slot, or an online banner\u2014making advertising a paid activity."

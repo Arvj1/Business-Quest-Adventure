@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q8
   m_EditorClassIdentifier: 
-  questionText: What is the primary purpose of warehousing in trade?
+  questionText: Why is advertising considered an aid to trade?
   options:
-  - To ensure advertising reaches consumers
-  - To store goods safely until they are sold
-  - To transport goods across regions
-  - To calculate risks associated with trade
-  correctOptionIndex: 1
+  - It stores goods
+  - It transports goods
+  - It promotes goods to consumers
+  - It provides loans
+  correctOptionIndex: 2
+  explanation: Advertising informs potential customers about products, creating awareness
+    and demand, which helps in increasing sales and market reach.

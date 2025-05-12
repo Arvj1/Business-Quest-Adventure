@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q6
   m_EditorClassIdentifier: 
-  questionText: Which of the following is an aid to trade?
+  questionText: What is the purpose of warehousing in trade?
   options:
-  - Transportation
-  - Advertisement
-  - Warehousing
-  - All of the above
-  correctOptionIndex: 3
+  - To produce goods
+  - To deliver goods to consumers
+  - To store goods safely until sold
+  - To advertise goods
+  correctOptionIndex: 2
+  explanation: Warehousing provides safe storage for goods from the time of production
+    until they are sold, protecting them from damage, theft, or decay.

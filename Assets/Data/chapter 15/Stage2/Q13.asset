@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q13
   m_EditorClassIdentifier: 
-  questionText: What is the purpose of a retailer in trade?
+  questionText: Which is a major advantage of internet advertising?
   options:
-  - To buy in bulk from producers
-  - To store goods for future sale
-  - To sell goods directly to consumers in smaller quantities
-  - To manufacture goods for wholesalers
+  - Works without electricity
+  - Available even to those without computers
+  - ' Access to global audience anytime'
+  - Does not require internet access
   correctOptionIndex: 2
+  explanation: Internet ads can be viewed 24/7, globally, and as per the user's convenience
+    and interest.

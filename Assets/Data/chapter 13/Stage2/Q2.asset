@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q2
   m_EditorClassIdentifier: 
-  questionText: 'The primary role of commerce is to ensure:'
+  questionText: Which of the following is an example of a direct channel?
   options:
-  - Production of high-quality goods
-  - ' Free and uninterrupted flow of goods from producers to consumers'
-  - Advertising to increase sales
-  - Risk management during production
-  correctOptionIndex: 1
+  - A local kirana shop
+  - A fruit vendor buying from a wholesaler
+  - A Liberty showroom selling its own shoes
+  - A supermarket
+  correctOptionIndex: 2
+  explanation: "Liberty selling through its own showroom is a direct channel \u2014
+    no middlemen involved."

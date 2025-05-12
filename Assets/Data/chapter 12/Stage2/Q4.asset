@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q4
   m_EditorClassIdentifier: 
-  questionText: Who acts as a middleman between producers and consumers?
+  questionText: Which mode of purchase involves relying solely on the description
+    or brand of a product?
   options:
-  - Transporters
-  - Warehousing agents
-  - Traders
-  - Insurers
-  correctOptionIndex: 2
+  - Inspection
+  - Sample
+  - Pattern
+  - Description/Brand
+  correctOptionIndex: 3
+  explanation: Purchase by brand/description is done when neither inspection nor
+    sampling is possible

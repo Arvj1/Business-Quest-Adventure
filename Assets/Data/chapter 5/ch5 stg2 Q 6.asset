@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 6
   m_EditorClassIdentifier: 
-  questionText: 'Risk of goods theft or damage in a warehouse is minimized by:'
+  questionText: Which type of road transport is motor driven?
   options:
-  - Leaving doors open
-  - Hiring more salesmen
-  - Round-the-clock security
-  - Reducing warehouse rent
+  - Bullock carts
+  - Rickshaws
+  - Trucks and buses
+  - Bicycles
   correctOptionIndex: 2
-  explanation: " 24-hour security is crucial for risk prevention\u200B"
+  explanation: Trucks and buses use engines for movement, so they are motor-driven,
+    unlike man-driven or animal-driven options.

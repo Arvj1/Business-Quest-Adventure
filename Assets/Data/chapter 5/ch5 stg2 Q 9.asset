@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: ch5 stg2 Q 9
   m_EditorClassIdentifier: 
-  questionText: 'One of the functions of a warehouse is financing because:'
+  questionText: 'Pipelines are mainly used to transport:'
   options:
-  - Warehouses sell goods to public
-  - Warehouses issue receipts for loans
-  - Warehouses work as banks
-  - Warehouses manufacture goods
-  correctOptionIndex: 1
-  explanation: "A warehouse-keeper\u2019s warrant can help businessmen get loans\u200B"
+  - Packaged goods
+  - Coal
+  - Petroleum and water
+  - People
+  correctOptionIndex: 2
+  explanation: Pipelines are best suited for transporting liquids like water, oil,
+    and natural gas over long distances safely and efficiently.

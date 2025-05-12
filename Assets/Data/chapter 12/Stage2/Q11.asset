@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q11
   m_EditorClassIdentifier: 
-  questionText: Which of the following aids ensures money for starting and running
-    a business?
+  questionText: 'A Credit Note is issued when:'
   options:
-  - ' Advertising'
-  - Transportation
-  - Banking
-  - Warehousing
+  - The seller owes more money
+  - "The buyer\u2019s account is increased"
+  - "The buyer\u2019s account is reduced"
+  - There is no change
   correctOptionIndex: 2
+  explanation: A credit note reduces the amount due from the buyer, e.g., for damaged
+    goods.

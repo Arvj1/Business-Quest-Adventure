@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q9
   m_EditorClassIdentifier: 
-  questionText: 'Insurance in trade is primarily required to manage risks such as:'
+  questionText: Which is a major disadvantage of tele-shopping?
   options:
-  - Lack of demand for products
-  - Damage due to accidents, theft, or fire
-  - High competition in the market
-  - Inefficient warehousing
-  correctOptionIndex: 1
+  - Personal inspection of goods is not possible
+  - No delivery service is offered
+  - Goods are delivered before payment
+  - Buyers can return goods easily
+  correctOptionIndex: 0
+  explanation: In tele-shopping, customers place orders based on TV demonstrations.
+    They cannot physically inspect the product before purchase.

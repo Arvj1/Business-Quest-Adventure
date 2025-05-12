@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q6
   m_EditorClassIdentifier: 
-  questionText: Which of the following is an aid to trade?
+  questionText: What is a key difference between hire purchase and instalment payment?
   options:
-  - Transportation
-  - Advertisement
-  - Warehousing
-  - All of the above
-  correctOptionIndex: 3
+  - Goods are delivered after all payments
+  - Ownership remains with the buyer in instalment system
+  - Instalments are not allowed
+  - Buyer can't return the goods
+  correctOptionIndex: 1
+  explanation: In instalment payment, ownership transfers immediately even though
+    payment is deferred.

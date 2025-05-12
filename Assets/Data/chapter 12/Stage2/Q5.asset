@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q5
   m_EditorClassIdentifier: 
-  questionText: What distinguishes wholesale trade from retail trade?
+  questionText: In hire purchase, who owns the goods until all instalments are paid?
   options:
-  - ' Wholesale trade involves direct contact with consumers.'
-  - Wholesalers buy large quantities, while retailers buy smaller quantities.
-  - Retail trade involves selling only to wholesalers.
-  - Wholesale trade excludes middlemen.
-  correctOptionIndex: 1
+  - The buyer
+  - The government
+  - The seller
+  - The bank
+  correctOptionIndex: 2
+  explanation: Ownership remains with the seller until full payment is completed.

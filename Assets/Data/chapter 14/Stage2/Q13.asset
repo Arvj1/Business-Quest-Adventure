@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q13
   m_EditorClassIdentifier: 
-  questionText: What is the purpose of a retailer in trade?
+  questionText: Which non-store retail method works entirely through post?
   options:
-  - To buy in bulk from producers
-  - To store goods for future sale
-  - To sell goods directly to consumers in smaller quantities
-  - To manufacture goods for wholesalers
-  correctOptionIndex: 2
+  - Tele-shopping
+  - Mail order business
+  - Vending machines
+  - Internet shopping
+  correctOptionIndex: 1
+  explanation: "In mail order business, the seller and buyer communicate only via
+    postal system\u2014catalogues, order forms, and deliveries are all handled through
+    the mail."

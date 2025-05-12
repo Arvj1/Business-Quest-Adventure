@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q8
   m_EditorClassIdentifier: 
-  questionText: What is the primary purpose of warehousing in trade?
+  questionText: What makes internet shopping different from other retailing methods?
   options:
-  - To ensure advertising reaches consumers
-  - To store goods safely until they are sold
-  - To transport goods across regions
-  - To calculate risks associated with trade
-  correctOptionIndex: 1
+  - "It\u2019s always done at night"
+  - It requires physical store visits
+  - It allows shopping 24/7 from anywhere
+  - It only sells groceries
+  correctOptionIndex: 2
+  explanation: Internet shopping is available around the clock and can be accessed
+    globally via computer or smartphone.

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q1
   m_EditorClassIdentifier: 
-  questionText: Which of the following is NOT a part of commerce?
+  questionText: What is the main function of a distribution channel?
   options:
-  - Production of goods
-  - Distribution of goods
-  - Aids to trade
-  - Trade
-  correctOptionIndex: 0
+  - To reduce production costs
+  - 'To advertise the product  '
+  - To move goods from producer to consumer
+  - To replace the producer
+  correctOptionIndex: 2
+  explanation: The primary role of a distribution channel is to deliver goods from
+    producer to consumer.

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q10
   m_EditorClassIdentifier: 
-  questionText: What is the regular payment made to an insurance company called?
+  questionText: What is the final step in the selling procedure?
   options:
-  - Premium
-  - Fee
-  - Interest
-  - Instalment
-  correctOptionIndex: 0
+  - Sending quotation
+  - Dispatch of goods
+  - Receipt of payment and settlement
+  - Receiving an enquiry
+  correctOptionIndex: 2
+  explanation: "The last step is receiving payment and settling the buyer\u2019s
+    account."

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q1
   m_EditorClassIdentifier: 
-  questionText: Which of the following is NOT a part of commerce?
+  questionText: What happens during a sale?
   options:
-  - Production of goods
-  - Distribution of goods
-  - Aids to trade
-  - Trade
-  correctOptionIndex: 0
+  - Ownership remains with the seller
+  - Ownership is transferred to the buyer for a price
+  - Goods are rented
+  - No payment is involved
+  correctOptionIndex: 1
+  explanation: In a sale, ownership of goods is transferred from the seller to the
+    buyer upon payment.

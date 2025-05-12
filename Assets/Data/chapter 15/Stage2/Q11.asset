@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q11
   m_EditorClassIdentifier: 
-  questionText: Which of the following aids ensures money for starting and running
-    a business?
+  questionText: 'Television advertising is most effective because:'
   options:
-  - ' Advertising'
-  - Transportation
-  - Banking
-  - Warehousing
-  correctOptionIndex: 2
+  - It is cheapest
+  - It has both visual and audio appeal
+  - It needs no payment
+  - It does not disturb viewers
+  correctOptionIndex: 1
+  explanation: ' TV advertising uses sight and sound, catchy jingles, celebrities,
+    and visuals to leave a lasting impact.'

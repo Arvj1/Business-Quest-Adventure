@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q2
   m_EditorClassIdentifier: 
-  questionText: 'The primary role of commerce is to ensure:'
+  questionText: Which of the following is not a factor a buyer should consider before
+    purchasing?
   options:
-  - Production of high-quality goods
-  - ' Free and uninterrupted flow of goods from producers to consumers'
-  - Advertising to increase sales
-  - Risk management during production
+  - Social and cultural relevance
+  - Seller's profit margin
+  - Product quality
+  - Affordability
   correctOptionIndex: 1
+  explanation: "The buyer does not consider the seller\u2019s profit. Instead, they
+    focus on need, quality, price, and culture."

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q2
   m_EditorClassIdentifier: 
-  questionText: 'The primary role of commerce is to ensure:'
+  questionText: Who is the 'sponsor' in advertising?
   options:
-  - Production of high-quality goods
-  - ' Free and uninterrupted flow of goods from producers to consumers'
-  - Advertising to increase sales
-  - Risk management during production
+  - The buyer
+  - The manufacturer or trader who pays for the advertisement
+  - The media platform
+  - The government
   correctOptionIndex: 1
+  explanation: The sponsor is the person or company that pays for the advertisement
+    and wants to promote their product or service.

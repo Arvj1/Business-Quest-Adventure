@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q1
   m_EditorClassIdentifier: 
-  questionText: Which of the following is NOT a part of commerce?
+  questionText: What is a key feature of a departmental store?
   options:
-  - Production of goods
-  - Distribution of goods
-  - Aids to trade
-  - Trade
-  correctOptionIndex: 0
+  - It sells only a specific line of product
+  - It has a single department for all goods
+  - It sells a variety of goods under one roof
+  - It is located only in residential areas
+  correctOptionIndex: 2
+  explanation: A departmental store is divided into sections or departments, each
+    dealing with different types of goods, like garments, electronics, groceries,
+    etc.

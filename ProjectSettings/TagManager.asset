@@ -10,6 +10,13 @@ TagManager:
   - manufacture
   - primary
   - service
+  - Car
+  - Airplane
+  - helicopter
+  - Rikshaw
+  - Cable Car
+  - Pipe Line
+  - Bull Cart
   layers:
   - Default
   - TransparentFX

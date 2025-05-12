@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q4
   m_EditorClassIdentifier: 
-  questionText: Who acts as a middleman between producers and consumers?
+  questionText: Which of these is a primary objective of advertising?
   options:
-  - Transporters
-  - Warehousing agents
-  - Traders
-  - Insurers
+  - 'To create scarcity of goods '
+  - To confuse customers
+  - To create demand for new products
+  - To hide the identity of the manufacturer
   correctOptionIndex: 2
+  explanation: One of the key aims of advertising is to inform customers about new
+    products and generate interest or demand.

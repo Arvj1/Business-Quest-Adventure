@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8ce1203862d704191f7178761fab8c, type: 3}
   m_Name: Q10
   m_EditorClassIdentifier: 
-  questionText: What is the regular payment made to an insurance company called?
+  questionText: 'A limitation of radio advertising is:'
   options:
-  - Premium
-  - Fee
-  - Interest
-  - Instalment
-  correctOptionIndex: 0
+  - Expensive setup
+  - Easy to repeat message
+  - Clear visuals
+  - No immediate replay
+  correctOptionIndex: 3
+  explanation: Listeners cannot replay ads immediately, and occasional listeners
+    may forget what they heard.

@@ -719,9 +719,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_Url
+      value: https://res.cloudinary.com/dpys2kkvc/video/upload/v1747131205/CH4_ST2_1_ij1mez.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: c7bbada313e006e428a7c511b3d0d18c, type: 3}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715762441059076777, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1484,9 +1492,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_Url
+      value: https://res.cloudinary.com/dpys2kkvc/video/upload/v1747131209/CH4_ST2_2_dwkrii.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: e4c8d75a20279dc4e910e888f4615aa7, type: 3}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715762441059076777, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2011,7 +2027,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1905910268023286454, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -646.54407
+      value: -646.5449
       objectReference: {fileID: 0}
     - target: {fileID: 2291198071594376832, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Pivot.x
@@ -2094,9 +2110,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_Url
+      value: https://res.cloudinary.com/dpys2kkvc/video/upload/v1747131215/CH4_ST2_3_wts5xt.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: 7d0fcdfbf418ef0428994e7a541ecd1e, type: 3}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715762441059076777, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Sprite
       value: 

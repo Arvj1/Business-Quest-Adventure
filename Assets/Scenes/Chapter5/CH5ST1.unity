@@ -3193,7 +3193,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 132.5
+  m_fontSize: 132.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3511,9 +3511,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_Url
+      value: https://res.cloudinary.com/dpys2kkvc/video/upload/v1747131474/CH5_ST1_i3hyrz.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: 0b3d516e354f03c489d73d4bb8871ce7, type: 3}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715762441059076777, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3733,7 +3741,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 137.9
+  m_fontSize: 138.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

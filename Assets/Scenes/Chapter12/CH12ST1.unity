@@ -425,9 +425,37 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_Url
+      value: https://res.cloudinary.com/dpys2kkvc/video/upload/v1747131790/CH12_ST1_e9qjey.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: 0ef36bd4228fc204b82c90cbc518f6f3, type: 3}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_ControlledAudioTrackCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DirectAudioMutes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DirectAudioVolumes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_EnabledAudioTracks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_TargetAudioSources.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4715762441059076777, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Sprite
       value: 

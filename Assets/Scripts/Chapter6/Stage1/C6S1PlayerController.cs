@@ -50,8 +50,9 @@ public class C6S1PlayerController : MonoBehaviour
 
             transform.position = new Vector3(newX, transform.position.y, transform.position.z);
 
-            if (!bulletShot && ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0)) || fireButtonClicked))
+            if (!bulletShot && (Input.GetKeyDown(KeyCode.Space) || fireButtonClicked))
             {
+                Debug.Log("Fired" + fireButtonClicked);
                 bulletShot = true;
                 fireButtonClicked = false;
                 GameObject bulletObj = Instantiate(bulletPrefab, spawnLocationTr.position, Quaternion.identity, bulletParentTr);
@@ -124,6 +125,7 @@ public class C6S1PlayerController : MonoBehaviour
 
     public void FireButtonAction()
     {
+        Debug.Log("Fire Button Clicked");
         fireButtonClicked = true;
         fireButton.interactable = false;
     }

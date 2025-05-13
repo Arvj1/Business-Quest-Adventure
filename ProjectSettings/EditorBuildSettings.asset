@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/InitialScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Chapter2/CH2_instructions.unity
+    path: Assets/Scenes/Chapter2/CH2_Instruction.unity
     guid: 5424cf910931c444689baca96cb01469
   - enabled: 1
     path: Assets/Scenes/Chapter2/CH2ST1.unity
@@ -116,4 +116,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter14/CH14ST2.unity
     guid: 89be2d8d826c3ff40aeb369432980b33
+  - enabled: 1
+    path: Assets/Scenes/Chapter15/CH15_Instruction.unity
+    guid: 5993db82a4bcabd42a22b6991802b87c
+  - enabled: 1
+    path: Assets/Scenes/Chapter15/CH15ST1.unity
+    guid: 61795a7abfde48e459bff8b9459295fc
+  - enabled: 1
+    path: Assets/Scenes/Chapter15/CH15ST2.unity
+    guid: 03c07ddf25b1b2243b9e9250e6e7207b
+  - enabled: 1
+    path: Assets/Scenes/Gameover.unity
+    guid: 639f728b84e7a734cbdd0223aa7e3937
   m_configObjects: {}

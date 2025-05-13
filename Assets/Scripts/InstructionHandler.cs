@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.U2D.Aseprite;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -31,6 +30,7 @@ public class InstructionHandler : MonoBehaviour
     
     public void VideoSkipButtonAction()
     {
+        videoPlayer.Pause();
         OnVideoSkipButtonPressed.Invoke();
     }
 

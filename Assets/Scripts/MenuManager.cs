@@ -11,6 +11,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] Transform parentTr;
     [SerializeField] TMP_Text percentageTxt, playBtnText;
     [SerializeField] Slider bgAudioSlider;
+    [SerializeField] Button playButton;
 
     private void Start()
     {
@@ -34,6 +35,15 @@ public class MenuManager : MonoBehaviour
             playBtnText.text = "Start New Game";
         }
 
+        for(int i=15; i>=2; i--)
+        {
+            if (PersistingMenuScript.Instance.levelData.unlockedLevels[i])
+            {
+                playButton.onClick.AddListener(() => { SceneManager.LoadScene($"CH{i}_Instruction"); });
+                break;
+            }
+        }
+
 
 
         bgAudioSlider.value = PersistingMenuScript.Instance.bgAudioSource.volume;
@@ -48,7 +58,7 @@ public class MenuManager : MonoBehaviour
 
             btn.onClick.AddListener(() =>
             {
-                SceneManager.LoadScene($"CH{chapterNumber}_Instructions");
+                SceneManager.LoadScene($"CH{chapterNumber}_Instruction");
             });
 
             btn.interactable = PersistingMenuScript.Instance.levelData.unlockedLevels[i];

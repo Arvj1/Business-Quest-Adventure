@@ -740,6 +740,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+--- !u!1 &877222293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1416531843685268404, guid: 2737d989543e4ef46a8e0d57971f4630, type: 3}
+  m_PrefabInstance: {fileID: 751018512}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &914857842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -748,6 +753,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1420440779865919118, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: OnInstructionSkipButtonPressed.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 877222293}
     - target: {fileID: 1905910268023286454, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

@@ -3264,10 +3264,11 @@ GameObject:
   - component: {fileID: 1129685752}
   - component: {fileID: 1129685751}
   - component: {fileID: 1129685756}
+  - component: {fileID: 1129685758}
   - component: {fileID: 1129685755}
   - component: {fileID: 1129685757}
   m_Layer: 5
-  m_Name: PersistingCanvas
+  m_Name: WebGLDeviceDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3481,6 +3482,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1129685758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129685750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b924e3e6ae846f845bc55ef2f20739be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1131755815
 GameObject:
   m_ObjectHideFlags: 0

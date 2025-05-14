@@ -30,6 +30,13 @@ public class C6S1PlayerController : MonoBehaviour
             fireButton.gameObject.SetActive(true);
         }
 
+        if(WebGLDeviceDetector.CurrentDeviceType == WebGLDeviceDetector.DeviceType.Touch)
+        {
+            leftButton.gameObject.SetActive(true);
+            rightButton.gameObject.SetActive(true);
+            fireButton.gameObject.SetActive(true);
+        }
+
         // Get screen bounds in world coordinates
         screenLeftBound = Camera.main.ScreenToWorldPoint(Vector3.zero).x;
         screenRightBound = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x;
@@ -50,7 +57,7 @@ public class C6S1PlayerController : MonoBehaviour
 
             transform.position = new Vector3(newX, transform.position.y, transform.position.z);
 
-            if (!bulletShot && ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0)) || fireButtonClicked))
+            if (!bulletShot && (Input.GetKeyDown(KeyCode.Space) || fireButtonClicked))
             {
                 bulletShot = true;
                 fireButtonClicked = false;

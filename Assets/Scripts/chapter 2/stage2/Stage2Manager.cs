@@ -115,7 +115,7 @@ public class Stage2Manager : MonoBehaviour
         correctAnimator.Play("Idle");
         incorrectAnimator.Play("IIdle");
 
-        correctAnswerCountTxt.text = cAC.ToString();
+        correctAnswerCountTxt.text = $"Player : {cAC.ToString()}";
     }
 
     private IEnumerator IncorrectAnswerTasks()
@@ -145,7 +145,7 @@ public class Stage2Manager : MonoBehaviour
         correctAnimator.Play("Idle");
         incorrectAnimator.Play("IIdle");
 
-        incorrectAnswerCountTxt.text = iAC.ToString();
+        incorrectAnswerCountTxt.text = $"Computer : {iAC.ToString()}";
     }
 
     private void SetupExplanationScreen()

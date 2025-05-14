@@ -48,12 +48,11 @@ public class MenuManager : MonoBehaviour
 
             btn.onClick.AddListener(() =>
             {
-                SceneManager.LoadScene($"CH{chapterNumber}_Instructions");
+                SceneManager.LoadScene($"CH{chapterNumber}_Instruction");
             });
 
             btn.interactable = PersistingMenuScript.Instance.levelData.unlockedLevels[i];
-
-            btn.transform.GetChild(0).GetComponent<TMP_Text>().text = $"Chapter {chapterNumber}";
+            btn.transform.GetChild(0).GetComponent<TMP_Text>().text = $"Chapter {chapterNumber - 1}";
         }
     }
 }

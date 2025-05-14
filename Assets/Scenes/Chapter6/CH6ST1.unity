@@ -4417,9 +4417,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_Url
+      value: https://res.cloudinary.com/drj9u5pyf/video/upload/v1747204752/CH6_ST1_db9lrn.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: c2a1726550be4b646ac73848e9708d30, type: 3}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715762441059076777, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Sprite
       value: 

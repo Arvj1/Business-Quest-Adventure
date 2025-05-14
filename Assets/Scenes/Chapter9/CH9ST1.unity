@@ -784,9 +784,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_Url
+      value: https://res.cloudinary.com/drj9u5pyf/video/upload/v1747204840/CH9_ST1__vuompn.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: 901fdfea9d2673b42b0988d65d51be05, type: 3}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715762441059076777, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1485,7 +1493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1905910268023286454, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1566.9666
+      value: -1566.9648
       objectReference: {fileID: 0}
     - target: {fileID: 2291198071594376832, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Pivot.x
@@ -1568,9 +1576,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_Url
+      value: https://res.cloudinary.com/drj9u5pyf/video/upload/v1747204829/CH9_ST1_2_xnwsww.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: 49d959bd7ba3f704f94b992e49c621a3, type: 3}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715762441059076777, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4175,9 +4191,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_Url
+      value: https://res.cloudinary.com/drj9u5pyf/video/upload/v1747204839/ch9_st_3_s7qdsc.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: befbaf708f2e55645834ff3cb3a82295, type: 3}
+    - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715762441059076777, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Sprite
       value: 

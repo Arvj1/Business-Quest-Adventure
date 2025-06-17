@@ -23,6 +23,25 @@ public class MenuManager : MonoBehaviour
         percentageTxt.text = (value * 100).ToString("F0") + "%";
     }
 
+    public void PlayButton()
+    {
+        bool found = false;
+        for (int i = 2; i < 15; i++)
+        {
+            if (!PersistingMenuScript.Instance.levelData.unlockedLevels[i + 1])
+            {
+                SceneManager.LoadScene($"CH{i}_Instruction");
+                found = true;
+                break;
+            }
+        }
+
+        if (!found)
+        {
+            SceneManager.LoadScene($"CH{15}_Instruction");
+        }
+    }
+
     private void Setup()
     {
         if (PersistingMenuScript.Instance.levelData.unlockedLevels[3])

@@ -2920,6 +2920,8 @@ MonoBehaviour:
   - {fileID: 1910069828}
   correctAnswerFeedback: {fileID: 2034952861}
   incorrectAnswerFeedback: {fileID: 464482723}
+  correctTxt: {fileID: 472720152}
+  incorrectTxt: {fileID: 1690141910}
   OnGameOver:
     m_PersistentCalls:
       m_Calls:

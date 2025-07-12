@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.Events;
+using TMPro;
 
 public class Stage1Manager : MonoBehaviour
 {
     [SerializeField] RectTransform startTransform, endTransform;
     [SerializeField] GameObject[] products;
     [SerializeField] CanvasGroup correctCG, wrongCG;
+    [SerializeField] TMP_Text correctTxt, incorrectTxt;
     private int count = 0,index=0;
     public UnityEvent OnGameOver;
 
@@ -39,16 +41,18 @@ public class Stage1Manager : MonoBehaviour
         if (dragged.tag == dropLocation.tag) { 
             Destroy(dragged.gameObject);
             count++;
-            correctCG.DOFade(1, 0.5f).OnComplete(() =>
+            correctTxt.text = FeedbackMessages.GetAppreciationMessage();
+            correctCG.DOFade(1, 3f).OnComplete(() =>
             {
-                correctCG.DOFade(0, 1f);
+                correctCG.DOFade(0, 3f);
             });
         }
         else
         {
-            wrongCG.DOFade(1, 0.5f).OnComplete(() =>
+            incorrectTxt.text = FeedbackMessages.GetGentleCorrectionMessage();
+            wrongCG.DOFade(1, 3f).OnComplete(() =>
             {
-                wrongCG.DOFade(0, 1f);
+                wrongCG.DOFade(0, 3f);
             });
         }
 

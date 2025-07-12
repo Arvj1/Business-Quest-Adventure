@@ -26,6 +26,7 @@ public class Stage3Manager : MonoBehaviour
     [SerializeField] TMP_Text customerReqTxt, totAmtTxt, ProfitTxt;
     [SerializeField] List<Stage3Items> itemsName;
     [SerializeField] CanvasGroup correctAnswer, incorrectAnswer, notEnoughMoney, doNotHaveItemStock;
+    [SerializeField] TMP_Text correctTxt, incorrectTxt;
     [SerializeField] GameObject completeObj;
 
     private int currentIdx = 0;
@@ -85,6 +86,7 @@ public class Stage3Manager : MonoBehaviour
             }
 
             given = true;
+            correctTxt.text = FeedbackMessages.GetAppreciationMessage();
             FadeImage(correctAnswer);
 
             customerReqTxt.text = "Thank You!";
@@ -102,6 +104,7 @@ public class Stage3Manager : MonoBehaviour
         }
         else
         {
+            incorrectTxt.text = FeedbackMessages.GetGentleCorrectionMessage();
             FadeImage(incorrectAnswer);
         }
     }

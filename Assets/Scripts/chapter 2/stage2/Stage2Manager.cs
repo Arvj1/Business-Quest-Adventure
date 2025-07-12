@@ -13,6 +13,8 @@ public class WrongAnswerClass
 
 public class Stage2Manager : MonoBehaviour
 {
+    [SerializeField] CanvasGroup correctCG, incorrectCG;
+    [SerializeField] TMP_Text correctTxt, incorrectTxt;
     [SerializeField] Stage2Question[] questionsData;
     [SerializeField] TMP_Text questionTxt, correctAnswerCountTxt, incorrectAnswerCountTxt;
     [SerializeField] TMP_Text[] options;
@@ -105,7 +107,12 @@ public class Stage2Manager : MonoBehaviour
 
         yield return new WaitForSeconds(1.5f);
         incorrectAnimator.Play("IDeath");
-        yield return new WaitForSeconds(1f);
+        correctTxt.text = FeedbackMessages.GetAppreciationMessage();
+        correctCG.DOFade(1, 3f).OnComplete(() =>
+        {
+            correctCG.DOFade(0, 3f);
+        });
+        yield return new WaitForSeconds(6f);
 
         correctCharacterTr.position = correctCharacterStartPos.position;
         incorrectCharacterTr.position = incorrectCharacterStartPos.position;
@@ -134,7 +141,12 @@ public class Stage2Manager : MonoBehaviour
 
         yield return new WaitForSeconds(1.5f);
         correctAnimator.Play("Death");
-        yield return new WaitForSeconds(1f);
+        incorrectTxt.text = FeedbackMessages.GetGentleCorrectionMessage();
+        incorrectCG.DOFade(1, 3f).OnComplete(() =>
+        {
+            incorrectCG.DOFade(0, 3f);
+        });
+        yield return new WaitForSeconds(6f);
 
         correctCharacterTr.position = correctCharacterStartPos.position;
         incorrectCharacterTr.position = incorrectCharacterStartPos.position;

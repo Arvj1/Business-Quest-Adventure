@@ -1,6 +1,7 @@
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -12,6 +13,7 @@ namespace CH1
 
         [HideInInspector] public GameObject activeCharacterObject;
         public CanvasGroup correctObj, incorrectObj;
+        public TMP_Text correctAnswerTxt, incorrectAnswerTxt;
         public bool canClick = true;
         public UnityEvent OnGameOver;
 
@@ -41,6 +43,7 @@ namespace CH1
             if (activeCharacterObject.tag == button.tag)
             {
                 FadeIn(correctObj, true);
+                correctAnswerTxt.text = FeedbackMessages.GetAppreciationMessage();
                 correctAnswerCount++;
 
                 if (correctAnswerCount == 3)
@@ -51,6 +54,7 @@ namespace CH1
             else
             {
                 FadeIn(incorrectObj, false);
+                incorrectAnswerTxt.text = FeedbackMessages.GetGentleCorrectionMessage();
             }
         }
 
@@ -98,7 +102,7 @@ namespace CH1
         // Fade In the CanvasGroup
         public void FadeIn(CanvasGroup cg, bool shouldZoomOut)
         {
-            cg.DOFade(1f, 1f).SetEase(Ease.InOutQuad).OnComplete(() =>
+            cg.DOFade(1f, 3f).SetEase(Ease.InOutQuad).OnComplete(() =>
             {
                 FadeOut(cg, shouldZoomOut);
             });
@@ -107,7 +111,7 @@ namespace CH1
         // Fade Out the CanvasGroup
         public void FadeOut(CanvasGroup cg, bool shouldZoomOut)
         {
-            cg.DOFade(0f, 1f).SetEase(Ease.InOutQuad).OnComplete(() =>
+            cg.DOFade(0f, 3f).SetEase(Ease.InOutQuad).OnComplete(() =>
             {
                 if (shouldZoomOut)
                 {

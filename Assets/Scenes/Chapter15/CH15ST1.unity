@@ -2105,6 +2105,8 @@ MonoBehaviour:
   - {fileID: 1482152430}
   correctCG: {fileID: 48671760}
   wrongCG: {fileID: 909679167}
+  correctTxt: {fileID: 520646081}
+  incorrectTxt: {fileID: 926009664}
   OnGameOver:
     m_PersistentCalls:
       m_Calls:

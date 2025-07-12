@@ -692,6 +692,8 @@ MonoBehaviour:
   - {fileID: 1040646802}
   correctAnswerFeedback: {fileID: 1406383879}
   incorrectAnswerFeedback: {fileID: 349085316}
+  correctTxt: {fileID: 1529335748}
+  incorrectTxt: {fileID: 1562876554}
   OnGameOver:
     m_PersistentCalls:
       m_Calls:

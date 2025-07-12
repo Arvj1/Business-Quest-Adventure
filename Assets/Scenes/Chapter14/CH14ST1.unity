@@ -1628,6 +1628,8 @@ MonoBehaviour:
   incorrectAnswer: {fileID: 1388098756}
   notEnoughMoney: {fileID: 1219483716}
   doNotHaveItemStock: {fileID: 1992037627}
+  correctTxt: {fileID: 1198389891}
+  incorrectTxt: {fileID: 10848681}
   completeObj: {fileID: 1826475756}
 --- !u!1 &477500704
 GameObject:

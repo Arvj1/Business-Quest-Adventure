@@ -11,6 +11,7 @@ public class C6S1GameManager : MonoBehaviour
     public TMP_Text questionTxt, numberOfQuestionTxt;
     public List<TMP_Text> optionsTxt;
     public CanvasGroup correctAnswerFeedback, incorrectAnswerFeedback;
+    public TMP_Text correctTxt, incorrectTxt;
     public UnityEvent OnGameOver;
     public bool pauseGame = false;
 
@@ -80,6 +81,7 @@ public class C6S1GameManager : MonoBehaviour
         if(hitTxt == questionsData[currIdx].options[questionsData[currIdx].correctOptionIndex])
         {
             Debug.Log("Correct Answer");
+            correctTxt.text = FeedbackMessages.GetAppreciationMessage();
             correctCnt++;
             FadeInAndOut(correctAnswerFeedback);
         }
@@ -90,6 +92,7 @@ public class C6S1GameManager : MonoBehaviour
             wad.incorrectAnswer = hitTxt;
             wrongAnswersData.Add(wad);
             Debug.Log("Incorrect Answer");
+            incorrectTxt.text = FeedbackMessages.GetGentleCorrectionMessage();
             FadeInAndOut(incorrectAnswerFeedback);
         }
     }

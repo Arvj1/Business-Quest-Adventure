@@ -1,6 +1,7 @@
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,6 +12,7 @@ public class CH : MonoBehaviour
     [SerializeField] List<GameObject> dropItems;
     [SerializeField] GameObject dragParent;
     [SerializeField] CanvasGroup correctCG, wrongCG;
+    [SerializeField] TMP_Text correctTxt, incorrectTxt;
     public UnityEvent OnGameOver;
 
     private int idx = 0;
@@ -37,9 +39,10 @@ public class CH : MonoBehaviour
     {
         if (dragged.CompareTag(dropped.tag))
         {
-            correctCG.DOFade(1, 1f).OnComplete(() =>
+            correctTxt.text = FeedbackMessages.GetAppreciationMessage();
+            correctCG.DOFade(1, 3f).OnComplete(() =>
             {
-                correctCG.DOFade(0, 1f);
+                correctCG.DOFade(0, 3f);
             });
             dropItems[idx].transform.DOMove(dropEndPos.position, 1f).OnComplete(() =>
             {
@@ -49,9 +52,10 @@ public class CH : MonoBehaviour
         }
         else
         {
-            wrongCG.DOFade(1, 1f).OnComplete(() =>
+            incorrectTxt.text = FeedbackMessages.GetGentleCorrectionMessage();
+            wrongCG.DOFade(1, 3).OnComplete(() =>
             {
-                wrongCG.DOFade(0, 1f);
+                wrongCG.DOFade(0, 3f);
             });
         }
     }

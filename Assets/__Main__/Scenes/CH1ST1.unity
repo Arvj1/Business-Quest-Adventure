@@ -9135,6 +9135,8 @@ MonoBehaviour:
   activeCharacterObject: {fileID: 0}
   correctObj: {fileID: 1202126434}
   incorrectObj: {fileID: 873660889}
+  correctAnswerTxt: {fileID: 1314493731}
+  incorrectAnswerTxt: {fileID: 633253975}
   canClick: 1
   OnGameOver:
     m_PersistentCalls:

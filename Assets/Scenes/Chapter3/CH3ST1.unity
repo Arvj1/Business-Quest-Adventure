@@ -620,7 +620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Url
-      value: https://res.cloudinary.com/dpys2kkvc/video/upload/v1747131077/CH3_SC1_1_jhlu4r.mp4
+      value: https://res.cloudinary.com/drj9u5pyf/video/upload/v1752561908/ch3_st1_1_ylslfh.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
@@ -1168,7 +1168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_Url
-      value: https://res.cloudinary.com/dpys2kkvc/video/upload/v1747131087/CH3_SC1_2_dtvgnl.mp4
+      value: https://res.cloudinary.com/drj9u5pyf/video/upload/v1752564379/CH3_ST1_2_r2xvjc.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 4667818818644892222, guid: 5543c2c2c1ef8ca48990f2b2dcd3a6f9, type: 3}
       propertyPath: m_VideoClip
